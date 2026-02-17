@@ -1,0 +1,346 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { readFileSync } from 'node:fs';
+import { resolve } from 'node:path';
+
+const dataPath = resolve(process.cwd(), 'public/data/providers.json');
+let providers: any[] = [];
+try {
+  providers = JSON.parse(readFileSync(dataPath, 'utf-8'));
+} catch {
+  providers = [];
+}
+
+const totalProviders = providers.length;
+const countries = new Set(providers.flatMap((p: any) => p.coordinates?.map((c: any) => c.code) ?? []));
+const totalCountries = countries.size;
+const categories = [...new Set(providers.map((p: any) => p.category))].sort();
+const regions = [...new Set(providers.map((p: any) => p.region))].sort();
+const allPayments = [...new Set(providers.flatMap((p: any) => p.payments ?? []))].sort();
+---
+
+<Layout title="Bitcoin VPS - Crypto-Friendly Hosting Providers">
+  <!-- Hero -->
+  <header class="hero">
+    <h1><span class="accent">Bitcoin</span> VPS Directory</h1>
+    <p>Comprehensive directory of hosting providers accepting Bitcoin and cryptocurrency payments</p>
+    <div class="stats">
+      <div class="stat">
+        <div class="stat-value">{totalProviders}</div>
+        <div class="stat-label">Providers</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value">{totalCountries}</div>
+        <div class="stat-label">Countries</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value">{categories.length}</div>
+        <div class="stat-label">Categories</div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Map -->
+  <section class="map-section">
+    <div id="map" class="map-container"></div>
+  </section>
+
+  <!-- Filters -->
+  <section class="filters-section">
+    <div class="filters-bar">
+      <div class="search-wrapper">
+        <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input
+          type="text"
+          id="search"
+          class="search-input"
+          placeholder="Search providers..."
+          autocomplete="off"
+        />
+      </div>
+      <select id="filter-category" class="filter-select">
+        <option value="">All Categories</option>
+        {categories.map((c) => <option value={c}>{c}</option>)}
+      </select>
+      <select id="filter-region" class="filter-select">
+        <option value="">All Regions</option>
+        {regions.map((r) => <option value={r}>{r}</option>)}
+      </select>
+      <select id="filter-payment" class="filter-select">
+        <option value="">All Payments</option>
+        {allPayments.map((p) => <option value={p}>{p}</option>)}
+      </select>
+      <select id="filter-tor" class="filter-select">
+        <option value="">Tor: Any</option>
+        <option value="true">Tor Friendly</option>
+        <option value="false">Not Tor</option>
+      </select>
+      <span id="results-count" class="results-count"></span>
+    </div>
+  </section>
+
+  <!-- Table -->
+  <section class="table-section">
+    <div style="overflow-x: auto;">
+      <table class="provider-table">
+        <thead>
+          <tr>
+            <th data-sort="name">Name</th>
+            <th data-sort="category">Category</th>
+            <th data-sort="region">Region</th>
+            <th data-sort="locations">Locations</th>
+            <th data-sort="payments">Payments</th>
+            <th data-sort="features">Features</th>
+            <th data-sort="description">Description</th>
+          </tr>
+        </thead>
+        <tbody id="provider-tbody">
+          {providers.map((p) => (
+            <tr
+              data-name={p.name.toLowerCase()}
+              data-category={p.category}
+              data-region={p.region}
+              data-payments={(p.payments ?? []).join(',')}
+              data-tor={String(p.tor_friendly)}
+              data-coords={JSON.stringify(p.coordinates ?? [])}
+              data-description={(p.description ?? '').toLowerCase()}
+              data-locations={(p.locations ?? []).join(', ').toLowerCase()}
+            >
+              <td class="provider-name">
+                <a href={p.url} target="_blank" rel="noopener noreferrer">{p.name}</a>
+              </td>
+              <td><span class="badge badge-category">{p.category}</span></td>
+              <td class="location-text">{p.region}</td>
+              <td class="location-text" title={(p.locations ?? []).join(', ')}>
+                {(p.locations ?? []).length <= 3
+                  ? (p.locations ?? []).join(', ')
+                  : (p.locations ?? []).slice(0, 3).join(', ') + ' +' + String((p.locations ?? []).length - 3)}
+              </td>
+              <td>
+                <div class="badges">
+                  {(p.payments ?? []).map((pm: string) => (
+                    <span class="badge badge-payment">{pm}</span>
+                  ))}
+                  {p.tor_friendly && <span class="badge badge-tor">Tor</span>}
+                </div>
+              </td>
+              <td>
+                <div class="badges">
+                  {(p.features ?? []).slice(0, 3).map((f: string) => (
+                    <span class="badge badge-feature">{f}</span>
+                  ))}
+                </div>
+              </td>
+              <td class="description-text" title={p.description ?? ''}>{p.description ?? ''}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <div id="empty-state" class="empty-state" style="display: none;">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+      <p>No providers match your filters</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>
+      Data sourced from <a href="https://bitcoin-vps.com/" target="_blank" rel="noopener noreferrer">bitcoin-vps.com</a>.
+      Updated daily. <a href="https://github.com/itcaat/bitcoin-vps" target="_blank" rel="noopener noreferrer">Source on GitHub</a>.
+    </p>
+  </footer>
+
+  <script is:inline>
+    document.addEventListener('DOMContentLoaded', () => {
+      // ── Map ──────────────────────────────────
+      const map = L.map('map', {
+        center: [30, 0],
+        zoom: 2,
+        minZoom: 2,
+        maxZoom: 10,
+        zoomControl: true,
+        attributionControl: true,
+      });
+
+      L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
+        subdomains: 'abcd',
+        maxZoom: 19,
+      }).addTo(map);
+
+      const markers = L.markerClusterGroup({
+        maxClusterRadius: 40,
+        spiderfyOnMaxZoom: true,
+        showCoverageOnHover: false,
+        zoomToBoundsOnClick: true,
+        iconCreateFunction: (cluster) => {
+          const count = cluster.getChildCount();
+          let size = 'small';
+          if (count >= 50) size = 'large';
+          else if (count >= 10) size = 'medium';
+          return L.divIcon({
+            html: '<div>' + count + '</div>',
+            className: 'marker-cluster marker-cluster-' + size,
+            iconSize: L.point(40, 40),
+          });
+        },
+      });
+
+      const btcIcon = L.divIcon({
+        html: '<div style="background:#f7931a;width:12px;height:12px;border-radius:50%;border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,0.5);"></div>',
+        className: '',
+        iconSize: [12, 12],
+        iconAnchor: [6, 6],
+      });
+
+      const rows = document.querySelectorAll('#provider-tbody tr');
+      const allMarkerLayers = [];
+
+      rows.forEach((row) => {
+        const coords = JSON.parse(row.dataset.coords || '[]');
+        const name = row.querySelector('.provider-name a')?.textContent || '';
+        const category = row.dataset.category || '';
+        const locations = row.querySelector('td:nth-child(4)')?.textContent || '';
+
+        coords.forEach((c) => {
+          const jitter = () => (Math.random() - 0.5) * 0.5;
+          const marker = L.marker([c.lat + jitter(), c.lng + jitter()], { icon: btcIcon });
+          marker.bindPopup(
+            '<div class="popup-name">' + name + '</div>' +
+            '<div class="popup-category">' + category + '</div>' +
+            '<div class="popup-location">' + c.label + '</div>'
+          );
+          marker._providerRow = row;
+          allMarkerLayers.push(marker);
+          markers.addLayer(marker);
+        });
+      });
+
+      map.addLayer(markers);
+
+      // ── Filters ──────────────────────────────
+      const searchInput = document.getElementById('search');
+      const filterCategory = document.getElementById('filter-category');
+      const filterRegion = document.getElementById('filter-region');
+      const filterPayment = document.getElementById('filter-payment');
+      const filterTor = document.getElementById('filter-tor');
+      const resultsCount = document.getElementById('results-count');
+      const emptyState = document.getElementById('empty-state');
+      const tableEl = document.querySelector('.provider-table');
+
+      function applyFilters() {
+        const search = searchInput.value.toLowerCase().trim();
+        const category = filterCategory.value;
+        const region = filterRegion.value;
+        const payment = filterPayment.value;
+        const tor = filterTor.value;
+
+        let visible = 0;
+        const visibleRows = new Set();
+
+        rows.forEach((row) => {
+          const matchSearch = !search ||
+            row.dataset.name.includes(search) ||
+            row.dataset.locations.includes(search) ||
+            row.dataset.description.includes(search);
+          const matchCategory = !category || row.dataset.category === category;
+          const matchRegion = !region || row.dataset.region === region;
+          const matchPayment = !payment || row.dataset.payments.includes(payment);
+          const matchTor = !tor || row.dataset.tor === tor;
+
+          const show = matchSearch && matchCategory && matchRegion && matchPayment && matchTor;
+          row.style.display = show ? '' : 'none';
+          if (show) {
+            visible++;
+            visibleRows.add(row);
+          }
+        });
+
+        resultsCount.textContent = visible + ' / ' + rows.length;
+        emptyState.style.display = visible === 0 ? '' : 'none';
+        tableEl.style.display = visible === 0 ? 'none' : '';
+
+        // Update map markers
+        markers.clearLayers();
+        allMarkerLayers.forEach((m) => {
+          if (visibleRows.has(m._providerRow)) {
+            markers.addLayer(m);
+          }
+        });
+      }
+
+      searchInput.addEventListener('input', applyFilters);
+      filterCategory.addEventListener('change', applyFilters);
+      filterRegion.addEventListener('change', applyFilters);
+      filterPayment.addEventListener('change', applyFilters);
+      filterTor.addEventListener('change', applyFilters);
+
+      applyFilters();
+
+      // ── Sorting ──────────────────────────────
+      const headers = document.querySelectorAll('.provider-table th[data-sort]');
+      let currentSort = { key: '', dir: 'asc' };
+
+      headers.forEach((th) => {
+        th.addEventListener('click', () => {
+          const key = th.dataset.sort;
+          if (currentSort.key === key) {
+            currentSort.dir = currentSort.dir === 'asc' ? 'desc' : 'asc';
+          } else {
+            currentSort = { key, dir: 'asc' };
+          }
+
+          headers.forEach((h) => h.classList.remove('sorted-asc', 'sorted-desc'));
+          th.classList.add('sorted-' + currentSort.dir);
+
+          const tbody = document.getElementById('provider-tbody');
+          const rowsArr = Array.from(rows);
+
+          rowsArr.sort((a, b) => {
+            let aVal, bVal;
+            switch (key) {
+              case 'name':
+                aVal = a.dataset.name;
+                bVal = b.dataset.name;
+                break;
+              case 'category':
+                aVal = a.dataset.category;
+                bVal = b.dataset.category;
+                break;
+              case 'region':
+                aVal = a.dataset.region;
+                bVal = b.dataset.region;
+                break;
+              case 'locations':
+                aVal = a.dataset.locations;
+                bVal = b.dataset.locations;
+                break;
+              case 'payments':
+                aVal = a.dataset.payments;
+                bVal = b.dataset.payments;
+                break;
+              case 'features':
+                aVal = (a.querySelector('td:nth-child(6)')?.textContent || '').toLowerCase();
+                bVal = (b.querySelector('td:nth-child(6)')?.textContent || '').toLowerCase();
+                break;
+              default:
+                aVal = a.dataset.name;
+                bVal = b.dataset.name;
+            }
+            const cmp = (aVal || '').localeCompare(bVal || '');
+            return currentSort.dir === 'asc' ? cmp : -cmp;
+          });
+
+          rowsArr.forEach((r) => tbody.appendChild(r));
+        });
+      });
+    });
+  </script>
+</Layout>

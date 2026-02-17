@@ -1,0 +1,8 @@
+node_modules/
+site/dist/
+site/.astro/
+*.pyc
+__pycache__/
+.DS_Store
+page-analysis.md
+html-samples.md
