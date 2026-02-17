@@ -377,6 +377,7 @@ a:hover {
   position: absolute;
   top: 1rem;
   right: 1rem;
+  z-index: 10;
   background: none;
   border: none;
   color: var(--text-muted);
@@ -492,38 +493,20 @@ a:hover {
 }
 
 /* ── Leaflet overrides ───────────────────── */
-.leaflet-popup-content-wrapper {
+.marker-tooltip {
   background: var(--bg-card) !important;
   color: var(--text-primary) !important;
+  border: 1px solid var(--border) !important;
   border-radius: var(--radius) !important;
+  padding: 0.35rem 0.6rem !important;
+  font-family: var(--font) !important;
+  font-size: 0.8rem !important;
+  font-weight: 600 !important;
   box-shadow: var(--shadow) !important;
 }
 
-.leaflet-popup-tip {
-  background: var(--bg-card) !important;
-}
-
-.leaflet-popup-content {
-  margin: 0.75rem 1rem !important;
-  font-family: var(--font) !important;
-  font-size: 0.85rem !important;
-  line-height: 1.5 !important;
-}
-
-.leaflet-popup-content .popup-name {
-  font-weight: 700;
-  font-size: 0.95rem;
-  margin-bottom: 0.3rem;
-}
-
-.leaflet-popup-content .popup-category {
-  color: var(--accent);
-  font-size: 0.8rem;
-}
-
-.leaflet-popup-content .popup-location {
-  color: var(--text-secondary);
-  font-size: 0.8rem;
+.marker-tooltip::before {
+  border-top-color: var(--border) !important;
 }
 
 .leaflet-container {
@@ -533,7 +516,10 @@ a:hover {
 .marker-cluster-small,
 .marker-cluster-medium,
 .marker-cluster-large {
-  background: rgba(247, 147, 26, 0.3) !important;
+  background: transparent !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
 
 .marker-cluster-small div,
@@ -543,6 +529,13 @@ a:hover {
   color: #000 !important;
   font-weight: 700 !important;
   font-family: var(--font-mono) !important;
+  width: 30px !important;
+  height: 30px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 50% !important;
+  font-size: 0.8rem !important;
 }
 
 /* ── Empty state ─────────────────────────── */

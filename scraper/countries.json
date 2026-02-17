@@ -3,4500 +3,5250 @@
     "lat": 12.5,
     "lng": -69.96666666,
     "cca2": "AW",
-    "cca3": "ABW"
+    "cca3": "ABW",
+    "region": "Caribbean"
   },
   "AW": {
     "lat": 12.5,
     "lng": -69.96666666,
     "cca2": "AW",
-    "cca3": "ABW"
+    "cca3": "ABW",
+    "region": "Caribbean"
   },
   "ABW": {
     "lat": 12.5,
     "lng": -69.96666666,
     "cca2": "AW",
-    "cca3": "ABW"
+    "cca3": "ABW",
+    "region": "Caribbean"
   },
   "Afghanistan": {
     "lat": 33,
     "lng": 65,
     "cca2": "AF",
-    "cca3": "AFG"
+    "cca3": "AFG",
+    "region": "Southern Asia"
   },
   "AF": {
     "lat": 33,
     "lng": 65,
     "cca2": "AF",
-    "cca3": "AFG"
+    "cca3": "AFG",
+    "region": "Southern Asia"
   },
   "AFG": {
     "lat": 33,
     "lng": 65,
     "cca2": "AF",
-    "cca3": "AFG"
+    "cca3": "AFG",
+    "region": "Southern Asia"
   },
   "Angola": {
     "lat": -12.5,
     "lng": 18.5,
     "cca2": "AO",
-    "cca3": "AGO"
+    "cca3": "AGO",
+    "region": "Middle Africa"
   },
   "AO": {
     "lat": -12.5,
     "lng": 18.5,
     "cca2": "AO",
-    "cca3": "AGO"
+    "cca3": "AGO",
+    "region": "Middle Africa"
   },
   "AGO": {
     "lat": -12.5,
     "lng": 18.5,
     "cca2": "AO",
-    "cca3": "AGO"
+    "cca3": "AGO",
+    "region": "Middle Africa"
   },
   "Anguilla": {
     "lat": 18.25,
     "lng": -63.16666666,
     "cca2": "AI",
-    "cca3": "AIA"
+    "cca3": "AIA",
+    "region": "Caribbean"
   },
   "AI": {
     "lat": 18.25,
     "lng": -63.16666666,
     "cca2": "AI",
-    "cca3": "AIA"
+    "cca3": "AIA",
+    "region": "Caribbean"
   },
   "AIA": {
     "lat": 18.25,
     "lng": -63.16666666,
     "cca2": "AI",
-    "cca3": "AIA"
+    "cca3": "AIA",
+    "region": "Caribbean"
   },
   "Åland Islands": {
     "lat": 60.116667,
     "lng": 19.9,
     "cca2": "AX",
-    "cca3": "ALA"
+    "cca3": "ALA",
+    "region": "Northern Europe"
   },
   "AX": {
     "lat": 60.116667,
     "lng": 19.9,
     "cca2": "AX",
-    "cca3": "ALA"
+    "cca3": "ALA",
+    "region": "Northern Europe"
   },
   "ALA": {
     "lat": 60.116667,
     "lng": 19.9,
     "cca2": "AX",
-    "cca3": "ALA"
+    "cca3": "ALA",
+    "region": "Northern Europe"
   },
   "Albania": {
     "lat": 41,
     "lng": 20,
     "cca2": "AL",
-    "cca3": "ALB"
+    "cca3": "ALB",
+    "region": "Southeast Europe"
   },
   "AL": {
     "lat": 41,
     "lng": 20,
     "cca2": "AL",
-    "cca3": "ALB"
+    "cca3": "ALB",
+    "region": "Southeast Europe"
   },
   "ALB": {
     "lat": 41,
     "lng": 20,
     "cca2": "AL",
-    "cca3": "ALB"
+    "cca3": "ALB",
+    "region": "Southeast Europe"
   },
   "Andorra": {
     "lat": 42.5,
     "lng": 1.5,
     "cca2": "AD",
-    "cca3": "AND"
+    "cca3": "AND",
+    "region": "Southern Europe"
   },
   "AD": {
     "lat": 42.5,
     "lng": 1.5,
     "cca2": "AD",
-    "cca3": "AND"
+    "cca3": "AND",
+    "region": "Southern Europe"
   },
   "AND": {
     "lat": 42.5,
     "lng": 1.5,
     "cca2": "AD",
-    "cca3": "AND"
+    "cca3": "AND",
+    "region": "Southern Europe"
   },
   "United Arab Emirates": {
     "lat": 24,
     "lng": 54,
     "cca2": "AE",
-    "cca3": "ARE"
+    "cca3": "ARE",
+    "region": "Western Asia"
   },
   "AE": {
     "lat": 24,
     "lng": 54,
     "cca2": "AE",
-    "cca3": "ARE"
+    "cca3": "ARE",
+    "region": "Western Asia"
   },
   "ARE": {
     "lat": 24,
     "lng": 54,
     "cca2": "AE",
-    "cca3": "ARE"
+    "cca3": "ARE",
+    "region": "Western Asia"
   },
   "Argentina": {
     "lat": -34,
     "lng": -64,
     "cca2": "AR",
-    "cca3": "ARG"
+    "cca3": "ARG",
+    "region": "South America"
   },
   "AR": {
     "lat": -34,
     "lng": -64,
     "cca2": "AR",
-    "cca3": "ARG"
+    "cca3": "ARG",
+    "region": "South America"
   },
   "ARG": {
     "lat": -34,
     "lng": -64,
     "cca2": "AR",
-    "cca3": "ARG"
+    "cca3": "ARG",
+    "region": "South America"
   },
   "Armenia": {
     "lat": 40,
     "lng": 45,
     "cca2": "AM",
-    "cca3": "ARM"
+    "cca3": "ARM",
+    "region": "Western Asia"
   },
   "AM": {
     "lat": 40,
     "lng": 45,
     "cca2": "AM",
-    "cca3": "ARM"
+    "cca3": "ARM",
+    "region": "Western Asia"
   },
   "ARM": {
     "lat": 40,
     "lng": 45,
     "cca2": "AM",
-    "cca3": "ARM"
+    "cca3": "ARM",
+    "region": "Western Asia"
   },
   "American Samoa": {
     "lat": -14.33333333,
     "lng": -170,
     "cca2": "AS",
-    "cca3": "ASM"
+    "cca3": "ASM",
+    "region": "Polynesia"
   },
   "AS": {
     "lat": -14.33333333,
     "lng": -170,
     "cca2": "AS",
-    "cca3": "ASM"
+    "cca3": "ASM",
+    "region": "Polynesia"
   },
   "ASM": {
     "lat": -14.33333333,
     "lng": -170,
     "cca2": "AS",
-    "cca3": "ASM"
+    "cca3": "ASM",
+    "region": "Polynesia"
   },
   "Antarctica": {
     "lat": -90,
     "lng": 0,
     "cca2": "AQ",
-    "cca3": "ATA"
+    "cca3": "ATA",
+    "region": "Antarctic"
   },
   "AQ": {
     "lat": -90,
     "lng": 0,
     "cca2": "AQ",
-    "cca3": "ATA"
+    "cca3": "ATA",
+    "region": "Antarctic"
   },
   "ATA": {
     "lat": -90,
     "lng": 0,
     "cca2": "AQ",
-    "cca3": "ATA"
+    "cca3": "ATA",
+    "region": "Antarctic"
   },
   "French Southern and Antarctic Lands": {
     "lat": -49.25,
     "lng": 69.167,
     "cca2": "TF",
-    "cca3": "ATF"
+    "cca3": "ATF",
+    "region": "Antarctic"
   },
   "TF": {
     "lat": -49.25,
     "lng": 69.167,
     "cca2": "TF",
-    "cca3": "ATF"
+    "cca3": "ATF",
+    "region": "Antarctic"
   },
   "ATF": {
     "lat": -49.25,
     "lng": 69.167,
     "cca2": "TF",
-    "cca3": "ATF"
+    "cca3": "ATF",
+    "region": "Antarctic"
   },
   "Antigua and Barbuda": {
     "lat": 17.05,
     "lng": -61.8,
     "cca2": "AG",
-    "cca3": "ATG"
+    "cca3": "ATG",
+    "region": "Caribbean"
   },
   "AG": {
     "lat": 17.05,
     "lng": -61.8,
     "cca2": "AG",
-    "cca3": "ATG"
+    "cca3": "ATG",
+    "region": "Caribbean"
   },
   "ATG": {
     "lat": 17.05,
     "lng": -61.8,
     "cca2": "AG",
-    "cca3": "ATG"
+    "cca3": "ATG",
+    "region": "Caribbean"
   },
   "Australia": {
     "lat": -27,
     "lng": 133,
     "cca2": "AU",
-    "cca3": "AUS"
+    "cca3": "AUS",
+    "region": "Australia and New Zealand"
   },
   "AU": {
     "lat": -27,
     "lng": 133,
     "cca2": "AU",
-    "cca3": "AUS"
+    "cca3": "AUS",
+    "region": "Australia and New Zealand"
   },
   "AUS": {
     "lat": -27,
     "lng": 133,
     "cca2": "AU",
-    "cca3": "AUS"
+    "cca3": "AUS",
+    "region": "Australia and New Zealand"
   },
   "Austria": {
     "lat": 47.33333333,
     "lng": 13.33333333,
     "cca2": "AT",
-    "cca3": "AUT"
+    "cca3": "AUT",
+    "region": "Central Europe"
   },
   "AT": {
     "lat": 47.33333333,
     "lng": 13.33333333,
     "cca2": "AT",
-    "cca3": "AUT"
+    "cca3": "AUT",
+    "region": "Central Europe"
   },
   "AUT": {
     "lat": 47.33333333,
     "lng": 13.33333333,
     "cca2": "AT",
-    "cca3": "AUT"
+    "cca3": "AUT",
+    "region": "Central Europe"
   },
   "Azerbaijan": {
     "lat": 40.5,
     "lng": 47.5,
     "cca2": "AZ",
-    "cca3": "AZE"
+    "cca3": "AZE",
+    "region": "Western Asia"
   },
   "AZ": {
     "lat": 40.5,
     "lng": 47.5,
     "cca2": "AZ",
-    "cca3": "AZE"
+    "cca3": "AZE",
+    "region": "Western Asia"
   },
   "AZE": {
     "lat": 40.5,
     "lng": 47.5,
     "cca2": "AZ",
-    "cca3": "AZE"
+    "cca3": "AZE",
+    "region": "Western Asia"
   },
   "Burundi": {
     "lat": -3.5,
     "lng": 30,
     "cca2": "BI",
-    "cca3": "BDI"
+    "cca3": "BDI",
+    "region": "Eastern Africa"
   },
   "BI": {
     "lat": -3.5,
     "lng": 30,
     "cca2": "BI",
-    "cca3": "BDI"
+    "cca3": "BDI",
+    "region": "Eastern Africa"
   },
   "BDI": {
     "lat": -3.5,
     "lng": 30,
     "cca2": "BI",
-    "cca3": "BDI"
+    "cca3": "BDI",
+    "region": "Eastern Africa"
   },
   "Belgium": {
     "lat": 50.83333333,
     "lng": 4,
     "cca2": "BE",
-    "cca3": "BEL"
+    "cca3": "BEL",
+    "region": "Western Europe"
   },
   "BE": {
     "lat": 50.83333333,
     "lng": 4,
     "cca2": "BE",
-    "cca3": "BEL"
+    "cca3": "BEL",
+    "region": "Western Europe"
   },
   "BEL": {
     "lat": 50.83333333,
     "lng": 4,
     "cca2": "BE",
-    "cca3": "BEL"
+    "cca3": "BEL",
+    "region": "Western Europe"
   },
   "Benin": {
     "lat": 9.5,
     "lng": 2.25,
     "cca2": "BJ",
-    "cca3": "BEN"
+    "cca3": "BEN",
+    "region": "Western Africa"
   },
   "BJ": {
     "lat": 9.5,
     "lng": 2.25,
     "cca2": "BJ",
-    "cca3": "BEN"
+    "cca3": "BEN",
+    "region": "Western Africa"
   },
   "BEN": {
     "lat": 9.5,
     "lng": 2.25,
     "cca2": "BJ",
-    "cca3": "BEN"
+    "cca3": "BEN",
+    "region": "Western Africa"
   },
   "Burkina Faso": {
     "lat": 13,
     "lng": -2,
     "cca2": "BF",
-    "cca3": "BFA"
+    "cca3": "BFA",
+    "region": "Western Africa"
   },
   "BF": {
     "lat": 13,
     "lng": -2,
     "cca2": "BF",
-    "cca3": "BFA"
+    "cca3": "BFA",
+    "region": "Western Africa"
   },
   "BFA": {
     "lat": 13,
     "lng": -2,
     "cca2": "BF",
-    "cca3": "BFA"
+    "cca3": "BFA",
+    "region": "Western Africa"
   },
   "Bangladesh": {
     "lat": 24,
     "lng": 90,
     "cca2": "BD",
-    "cca3": "BGD"
+    "cca3": "BGD",
+    "region": "Southern Asia"
   },
   "BD": {
     "lat": 24,
     "lng": 90,
     "cca2": "BD",
-    "cca3": "BGD"
+    "cca3": "BGD",
+    "region": "Southern Asia"
   },
   "BGD": {
     "lat": 24,
     "lng": 90,
     "cca2": "BD",
-    "cca3": "BGD"
+    "cca3": "BGD",
+    "region": "Southern Asia"
   },
   "Bulgaria": {
     "lat": 43,
     "lng": 25,
     "cca2": "BG",
-    "cca3": "BGR"
+    "cca3": "BGR",
+    "region": "Southeast Europe"
   },
   "BG": {
     "lat": 43,
     "lng": 25,
     "cca2": "BG",
-    "cca3": "BGR"
+    "cca3": "BGR",
+    "region": "Southeast Europe"
   },
   "BGR": {
     "lat": 43,
     "lng": 25,
     "cca2": "BG",
-    "cca3": "BGR"
+    "cca3": "BGR",
+    "region": "Southeast Europe"
   },
   "Bahrain": {
     "lat": 26,
     "lng": 50.55,
     "cca2": "BH",
-    "cca3": "BHR"
+    "cca3": "BHR",
+    "region": "Western Asia"
   },
   "BH": {
     "lat": 26,
     "lng": 50.55,
     "cca2": "BH",
-    "cca3": "BHR"
+    "cca3": "BHR",
+    "region": "Western Asia"
   },
   "BHR": {
     "lat": 26,
     "lng": 50.55,
     "cca2": "BH",
-    "cca3": "BHR"
+    "cca3": "BHR",
+    "region": "Western Asia"
   },
   "Bahamas": {
     "lat": 24.25,
     "lng": -76,
     "cca2": "BS",
-    "cca3": "BHS"
+    "cca3": "BHS",
+    "region": "Caribbean"
   },
   "BS": {
     "lat": 24.25,
     "lng": -76,
     "cca2": "BS",
-    "cca3": "BHS"
+    "cca3": "BHS",
+    "region": "Caribbean"
   },
   "BHS": {
     "lat": 24.25,
     "lng": -76,
     "cca2": "BS",
-    "cca3": "BHS"
+    "cca3": "BHS",
+    "region": "Caribbean"
   },
   "Bosnia and Herzegovina": {
     "lat": 44,
     "lng": 18,
     "cca2": "BA",
-    "cca3": "BIH"
+    "cca3": "BIH",
+    "region": "Southeast Europe"
   },
   "BA": {
     "lat": 44,
     "lng": 18,
     "cca2": "BA",
-    "cca3": "BIH"
+    "cca3": "BIH",
+    "region": "Southeast Europe"
   },
   "BIH": {
     "lat": 44,
     "lng": 18,
     "cca2": "BA",
-    "cca3": "BIH"
+    "cca3": "BIH",
+    "region": "Southeast Europe"
   },
   "Saint Barthélemy": {
     "lat": 18.5,
     "lng": -63.41666666,
     "cca2": "BL",
-    "cca3": "BLM"
+    "cca3": "BLM",
+    "region": "Caribbean"
   },
   "BL": {
     "lat": 18.5,
     "lng": -63.41666666,
     "cca2": "BL",
-    "cca3": "BLM"
+    "cca3": "BLM",
+    "region": "Caribbean"
   },
   "BLM": {
     "lat": 18.5,
     "lng": -63.41666666,
     "cca2": "BL",
-    "cca3": "BLM"
+    "cca3": "BLM",
+    "region": "Caribbean"
   },
   "Saint Helena, Ascension and Tristan da Cunha": {
     "lat": -15.95,
     "lng": -5.72,
     "cca2": "SH",
-    "cca3": "SHN"
+    "cca3": "SHN",
+    "region": "Western Africa"
   },
   "SH": {
     "lat": -15.95,
     "lng": -5.72,
     "cca2": "SH",
-    "cca3": "SHN"
+    "cca3": "SHN",
+    "region": "Western Africa"
   },
   "SHN": {
     "lat": -15.95,
     "lng": -5.72,
     "cca2": "SH",
-    "cca3": "SHN"
+    "cca3": "SHN",
+    "region": "Western Africa"
   },
   "Belarus": {
     "lat": 53,
     "lng": 28,
     "cca2": "BY",
-    "cca3": "BLR"
+    "cca3": "BLR",
+    "region": "Eastern Europe"
   },
   "BY": {
     "lat": 53,
     "lng": 28,
     "cca2": "BY",
-    "cca3": "BLR"
+    "cca3": "BLR",
+    "region": "Eastern Europe"
   },
   "BLR": {
     "lat": 53,
     "lng": 28,
     "cca2": "BY",
-    "cca3": "BLR"
+    "cca3": "BLR",
+    "region": "Eastern Europe"
   },
   "Belize": {
     "lat": 17.25,
     "lng": -88.75,
     "cca2": "BZ",
-    "cca3": "BLZ"
+    "cca3": "BLZ",
+    "region": "Central America"
   },
   "BZ": {
     "lat": 17.25,
     "lng": -88.75,
     "cca2": "BZ",
-    "cca3": "BLZ"
+    "cca3": "BLZ",
+    "region": "Central America"
   },
   "BLZ": {
     "lat": 17.25,
     "lng": -88.75,
     "cca2": "BZ",
-    "cca3": "BLZ"
+    "cca3": "BLZ",
+    "region": "Central America"
   },
   "Bermuda": {
     "lat": 32.33333333,
     "lng": -64.75,
     "cca2": "BM",
-    "cca3": "BMU"
+    "cca3": "BMU",
+    "region": "North America"
   },
   "BM": {
     "lat": 32.33333333,
     "lng": -64.75,
     "cca2": "BM",
-    "cca3": "BMU"
+    "cca3": "BMU",
+    "region": "North America"
   },
   "BMU": {
     "lat": 32.33333333,
     "lng": -64.75,
     "cca2": "BM",
-    "cca3": "BMU"
+    "cca3": "BMU",
+    "region": "North America"
   },
   "Bolivia": {
     "lat": -17,
     "lng": -65,
     "cca2": "BO",
-    "cca3": "BOL"
+    "cca3": "BOL",
+    "region": "South America"
   },
   "BO": {
     "lat": -17,
     "lng": -65,
     "cca2": "BO",
-    "cca3": "BOL"
+    "cca3": "BOL",
+    "region": "South America"
   },
   "BOL": {
     "lat": -17,
     "lng": -65,
     "cca2": "BO",
-    "cca3": "BOL"
+    "cca3": "BOL",
+    "region": "South America"
   },
   "Caribbean Netherlands": {
     "lat": 12.18,
     "lng": -68.25,
     "cca2": "BQ",
-    "cca3": "BES"
+    "cca3": "BES",
+    "region": "Caribbean"
   },
   "BQ": {
     "lat": 12.18,
     "lng": -68.25,
     "cca2": "BQ",
-    "cca3": "BES"
+    "cca3": "BES",
+    "region": "Caribbean"
   },
   "BES": {
     "lat": 12.18,
     "lng": -68.25,
     "cca2": "BQ",
-    "cca3": "BES"
+    "cca3": "BES",
+    "region": "Caribbean"
   },
   "Brazil": {
     "lat": -10,
     "lng": -55,
     "cca2": "BR",
-    "cca3": "BRA"
+    "cca3": "BRA",
+    "region": "South America"
   },
   "BR": {
     "lat": -10,
     "lng": -55,
     "cca2": "BR",
-    "cca3": "BRA"
+    "cca3": "BRA",
+    "region": "South America"
   },
   "BRA": {
     "lat": -10,
     "lng": -55,
     "cca2": "BR",
-    "cca3": "BRA"
+    "cca3": "BRA",
+    "region": "South America"
   },
   "Barbados": {
     "lat": 13.16666666,
     "lng": -59.53333333,
     "cca2": "BB",
-    "cca3": "BRB"
+    "cca3": "BRB",
+    "region": "Caribbean"
   },
   "BB": {
     "lat": 13.16666666,
     "lng": -59.53333333,
     "cca2": "BB",
-    "cca3": "BRB"
+    "cca3": "BRB",
+    "region": "Caribbean"
   },
   "BRB": {
     "lat": 13.16666666,
     "lng": -59.53333333,
     "cca2": "BB",
-    "cca3": "BRB"
+    "cca3": "BRB",
+    "region": "Caribbean"
   },
   "Brunei": {
     "lat": 4.5,
     "lng": 114.66666666,
     "cca2": "BN",
-    "cca3": "BRN"
+    "cca3": "BRN",
+    "region": "South-Eastern Asia"
   },
   "BN": {
     "lat": 4.5,
     "lng": 114.66666666,
     "cca2": "BN",
-    "cca3": "BRN"
+    "cca3": "BRN",
+    "region": "South-Eastern Asia"
   },
   "BRN": {
     "lat": 4.5,
     "lng": 114.66666666,
     "cca2": "BN",
-    "cca3": "BRN"
+    "cca3": "BRN",
+    "region": "South-Eastern Asia"
   },
   "Bhutan": {
     "lat": 27.5,
     "lng": 90.5,
     "cca2": "BT",
-    "cca3": "BTN"
+    "cca3": "BTN",
+    "region": "Southern Asia"
   },
   "BT": {
     "lat": 27.5,
     "lng": 90.5,
     "cca2": "BT",
-    "cca3": "BTN"
+    "cca3": "BTN",
+    "region": "Southern Asia"
   },
   "BTN": {
     "lat": 27.5,
     "lng": 90.5,
     "cca2": "BT",
-    "cca3": "BTN"
+    "cca3": "BTN",
+    "region": "Southern Asia"
   },
   "Bouvet Island": {
     "lat": -54.43333333,
     "lng": 3.4,
     "cca2": "BV",
-    "cca3": "BVT"
+    "cca3": "BVT",
+    "region": "Antarctic"
   },
   "BV": {
     "lat": -54.43333333,
     "lng": 3.4,
     "cca2": "BV",
-    "cca3": "BVT"
+    "cca3": "BVT",
+    "region": "Antarctic"
   },
   "BVT": {
     "lat": -54.43333333,
     "lng": 3.4,
     "cca2": "BV",
-    "cca3": "BVT"
+    "cca3": "BVT",
+    "region": "Antarctic"
   },
   "Botswana": {
     "lat": -22,
     "lng": 24,
     "cca2": "BW",
-    "cca3": "BWA"
+    "cca3": "BWA",
+    "region": "Southern Africa"
   },
   "BW": {
     "lat": -22,
     "lng": 24,
     "cca2": "BW",
-    "cca3": "BWA"
+    "cca3": "BWA",
+    "region": "Southern Africa"
   },
   "BWA": {
     "lat": -22,
     "lng": 24,
     "cca2": "BW",
-    "cca3": "BWA"
+    "cca3": "BWA",
+    "region": "Southern Africa"
   },
   "Central African Republic": {
     "lat": 7,
     "lng": 21,
     "cca2": "CF",
-    "cca3": "CAF"
+    "cca3": "CAF",
+    "region": "Middle Africa"
   },
   "CF": {
     "lat": 7,
     "lng": 21,
     "cca2": "CF",
-    "cca3": "CAF"
+    "cca3": "CAF",
+    "region": "Middle Africa"
   },
   "CAF": {
     "lat": 7,
     "lng": 21,
     "cca2": "CF",
-    "cca3": "CAF"
+    "cca3": "CAF",
+    "region": "Middle Africa"
   },
   "Canada": {
     "lat": 60,
     "lng": -95,
     "cca2": "CA",
-    "cca3": "CAN"
+    "cca3": "CAN",
+    "region": "North America"
   },
   "CA": {
     "lat": 60,
     "lng": -95,
     "cca2": "CA",
-    "cca3": "CAN"
+    "cca3": "CAN",
+    "region": "North America"
   },
   "CAN": {
     "lat": 60,
     "lng": -95,
     "cca2": "CA",
-    "cca3": "CAN"
+    "cca3": "CAN",
+    "region": "North America"
   },
   "Cocos (Keeling) Islands": {
     "lat": -12.5,
     "lng": 96.83333333,
     "cca2": "CC",
-    "cca3": "CCK"
+    "cca3": "CCK",
+    "region": "Australia and New Zealand"
   },
   "CC": {
     "lat": -12.5,
     "lng": 96.83333333,
     "cca2": "CC",
-    "cca3": "CCK"
+    "cca3": "CCK",
+    "region": "Australia and New Zealand"
   },
   "CCK": {
     "lat": -12.5,
     "lng": 96.83333333,
     "cca2": "CC",
-    "cca3": "CCK"
+    "cca3": "CCK",
+    "region": "Australia and New Zealand"
   },
   "Switzerland": {
     "lat": 47,
     "lng": 8,
     "cca2": "CH",
-    "cca3": "CHE"
+    "cca3": "CHE",
+    "region": "Western Europe"
   },
   "CH": {
     "lat": 47,
     "lng": 8,
     "cca2": "CH",
-    "cca3": "CHE"
+    "cca3": "CHE",
+    "region": "Western Europe"
   },
   "CHE": {
     "lat": 47,
     "lng": 8,
     "cca2": "CH",
-    "cca3": "CHE"
+    "cca3": "CHE",
+    "region": "Western Europe"
   },
   "Chile": {
     "lat": -30,
     "lng": -71,
     "cca2": "CL",
-    "cca3": "CHL"
+    "cca3": "CHL",
+    "region": "South America"
   },
   "CL": {
     "lat": -30,
     "lng": -71,
     "cca2": "CL",
-    "cca3": "CHL"
+    "cca3": "CHL",
+    "region": "South America"
   },
   "CHL": {
     "lat": -30,
     "lng": -71,
     "cca2": "CL",
-    "cca3": "CHL"
+    "cca3": "CHL",
+    "region": "South America"
   },
   "China": {
     "lat": 35,
     "lng": 105,
     "cca2": "CN",
-    "cca3": "CHN"
+    "cca3": "CHN",
+    "region": "Eastern Asia"
   },
   "CN": {
     "lat": 35,
     "lng": 105,
     "cca2": "CN",
-    "cca3": "CHN"
+    "cca3": "CHN",
+    "region": "Eastern Asia"
   },
   "CHN": {
     "lat": 35,
     "lng": 105,
     "cca2": "CN",
-    "cca3": "CHN"
+    "cca3": "CHN",
+    "region": "Eastern Asia"
   },
   "Ivory Coast": {
     "lat": 8,
     "lng": -5,
     "cca2": "CI",
-    "cca3": "CIV"
+    "cca3": "CIV",
+    "region": "Western Africa"
   },
   "CI": {
     "lat": 8,
     "lng": -5,
     "cca2": "CI",
-    "cca3": "CIV"
+    "cca3": "CIV",
+    "region": "Western Africa"
   },
   "CIV": {
     "lat": 8,
     "lng": -5,
     "cca2": "CI",
-    "cca3": "CIV"
+    "cca3": "CIV",
+    "region": "Western Africa"
   },
   "Cameroon": {
     "lat": 6,
     "lng": 12,
     "cca2": "CM",
-    "cca3": "CMR"
+    "cca3": "CMR",
+    "region": "Middle Africa"
   },
   "CM": {
     "lat": 6,
     "lng": 12,
     "cca2": "CM",
-    "cca3": "CMR"
+    "cca3": "CMR",
+    "region": "Middle Africa"
   },
   "CMR": {
     "lat": 6,
     "lng": 12,
     "cca2": "CM",
-    "cca3": "CMR"
+    "cca3": "CMR",
+    "region": "Middle Africa"
   },
   "DR Congo": {
     "lat": 0,
     "lng": 25,
     "cca2": "CD",
-    "cca3": "COD"
+    "cca3": "COD",
+    "region": "Middle Africa"
   },
   "CD": {
     "lat": 0,
     "lng": 25,
     "cca2": "CD",
-    "cca3": "COD"
+    "cca3": "COD",
+    "region": "Middle Africa"
   },
   "COD": {
     "lat": 0,
     "lng": 25,
     "cca2": "CD",
-    "cca3": "COD"
+    "cca3": "COD",
+    "region": "Middle Africa"
   },
   "Congo": {
     "lat": -1,
     "lng": 15,
     "cca2": "CG",
-    "cca3": "COG"
+    "cca3": "COG",
+    "region": "Middle Africa"
   },
   "CG": {
     "lat": -1,
     "lng": 15,
     "cca2": "CG",
-    "cca3": "COG"
+    "cca3": "COG",
+    "region": "Middle Africa"
   },
   "COG": {
     "lat": -1,
     "lng": 15,
     "cca2": "CG",
-    "cca3": "COG"
+    "cca3": "COG",
+    "region": "Middle Africa"
   },
   "Cook Islands": {
     "lat": -21.23333333,
     "lng": -159.76666666,
     "cca2": "CK",
-    "cca3": "COK"
+    "cca3": "COK",
+    "region": "Polynesia"
   },
   "CK": {
     "lat": -21.23333333,
     "lng": -159.76666666,
     "cca2": "CK",
-    "cca3": "COK"
+    "cca3": "COK",
+    "region": "Polynesia"
   },
   "COK": {
     "lat": -21.23333333,
     "lng": -159.76666666,
     "cca2": "CK",
-    "cca3": "COK"
+    "cca3": "COK",
+    "region": "Polynesia"
   },
   "Colombia": {
     "lat": 4,
     "lng": -72,
     "cca2": "CO",
-    "cca3": "COL"
+    "cca3": "COL",
+    "region": "South America"
   },
   "CO": {
     "lat": 4,
     "lng": -72,
     "cca2": "CO",
-    "cca3": "COL"
+    "cca3": "COL",
+    "region": "South America"
   },
   "COL": {
     "lat": 4,
     "lng": -72,
     "cca2": "CO",
-    "cca3": "COL"
+    "cca3": "COL",
+    "region": "South America"
   },
   "Comoros": {
     "lat": -12.16666666,
     "lng": 44.25,
     "cca2": "KM",
-    "cca3": "COM"
+    "cca3": "COM",
+    "region": "Eastern Africa"
   },
   "KM": {
     "lat": -12.16666666,
     "lng": 44.25,
     "cca2": "KM",
-    "cca3": "COM"
+    "cca3": "COM",
+    "region": "Eastern Africa"
   },
   "COM": {
     "lat": -12.16666666,
     "lng": 44.25,
     "cca2": "KM",
-    "cca3": "COM"
+    "cca3": "COM",
+    "region": "Eastern Africa"
   },
   "Cape Verde": {
     "lat": 16,
     "lng": -24,
     "cca2": "CV",
-    "cca3": "CPV"
+    "cca3": "CPV",
+    "region": "Western Africa"
   },
   "CV": {
     "lat": 16,
     "lng": -24,
     "cca2": "CV",
-    "cca3": "CPV"
+    "cca3": "CPV",
+    "region": "Western Africa"
   },
   "CPV": {
     "lat": 16,
     "lng": -24,
     "cca2": "CV",
-    "cca3": "CPV"
+    "cca3": "CPV",
+    "region": "Western Africa"
   },
   "Costa Rica": {
     "lat": 10,
     "lng": -84,
     "cca2": "CR",
-    "cca3": "CRI"
+    "cca3": "CRI",
+    "region": "Central America"
   },
   "CR": {
     "lat": 10,
     "lng": -84,
     "cca2": "CR",
-    "cca3": "CRI"
+    "cca3": "CRI",
+    "region": "Central America"
   },
   "CRI": {
     "lat": 10,
     "lng": -84,
     "cca2": "CR",
-    "cca3": "CRI"
+    "cca3": "CRI",
+    "region": "Central America"
   },
   "Cuba": {
     "lat": 21.5,
     "lng": -80,
     "cca2": "CU",
-    "cca3": "CUB"
+    "cca3": "CUB",
+    "region": "Caribbean"
   },
   "CU": {
     "lat": 21.5,
     "lng": -80,
     "cca2": "CU",
-    "cca3": "CUB"
+    "cca3": "CUB",
+    "region": "Caribbean"
   },
   "CUB": {
     "lat": 21.5,
     "lng": -80,
     "cca2": "CU",
-    "cca3": "CUB"
+    "cca3": "CUB",
+    "region": "Caribbean"
   },
   "Curaçao": {
     "lat": 12.116667,
     "lng": -68.933333,
     "cca2": "CW",
-    "cca3": "CUW"
+    "cca3": "CUW",
+    "region": "Caribbean"
   },
   "CW": {
     "lat": 12.116667,
     "lng": -68.933333,
     "cca2": "CW",
-    "cca3": "CUW"
+    "cca3": "CUW",
+    "region": "Caribbean"
   },
   "CUW": {
     "lat": 12.116667,
     "lng": -68.933333,
     "cca2": "CW",
-    "cca3": "CUW"
+    "cca3": "CUW",
+    "region": "Caribbean"
   },
   "Christmas Island": {
     "lat": -10.5,
     "lng": 105.66666666,
     "cca2": "CX",
-    "cca3": "CXR"
+    "cca3": "CXR",
+    "region": "Australia and New Zealand"
   },
   "CX": {
     "lat": -10.5,
     "lng": 105.66666666,
     "cca2": "CX",
-    "cca3": "CXR"
+    "cca3": "CXR",
+    "region": "Australia and New Zealand"
   },
   "CXR": {
     "lat": -10.5,
     "lng": 105.66666666,
     "cca2": "CX",
-    "cca3": "CXR"
+    "cca3": "CXR",
+    "region": "Australia and New Zealand"
   },
   "Cayman Islands": {
     "lat": 19.5,
     "lng": -80.5,
     "cca2": "KY",
-    "cca3": "CYM"
+    "cca3": "CYM",
+    "region": "Caribbean"
   },
   "KY": {
     "lat": 19.5,
     "lng": -80.5,
     "cca2": "KY",
-    "cca3": "CYM"
+    "cca3": "CYM",
+    "region": "Caribbean"
   },
   "CYM": {
     "lat": 19.5,
     "lng": -80.5,
     "cca2": "KY",
-    "cca3": "CYM"
+    "cca3": "CYM",
+    "region": "Caribbean"
   },
   "Cyprus": {
     "lat": 35,
     "lng": 33,
     "cca2": "CY",
-    "cca3": "CYP"
+    "cca3": "CYP",
+    "region": "Southern Europe"
   },
   "CY": {
     "lat": 35,
     "lng": 33,
     "cca2": "CY",
-    "cca3": "CYP"
+    "cca3": "CYP",
+    "region": "Southern Europe"
   },
   "CYP": {
     "lat": 35,
     "lng": 33,
     "cca2": "CY",
-    "cca3": "CYP"
+    "cca3": "CYP",
+    "region": "Southern Europe"
   },
   "Czechia": {
     "lat": 49.75,
     "lng": 15.5,
     "cca2": "CZ",
-    "cca3": "CZE"
+    "cca3": "CZE",
+    "region": "Central Europe"
   },
   "CZ": {
     "lat": 49.75,
     "lng": 15.5,
     "cca2": "CZ",
-    "cca3": "CZE"
+    "cca3": "CZE",
+    "region": "Central Europe"
   },
   "CZE": {
     "lat": 49.75,
     "lng": 15.5,
     "cca2": "CZ",
-    "cca3": "CZE"
+    "cca3": "CZE",
+    "region": "Central Europe"
   },
   "Germany": {
     "lat": 51,
     "lng": 9,
     "cca2": "DE",
-    "cca3": "DEU"
+    "cca3": "DEU",
+    "region": "Western Europe"
   },
   "DE": {
     "lat": 51,
     "lng": 9,
     "cca2": "DE",
-    "cca3": "DEU"
+    "cca3": "DEU",
+    "region": "Western Europe"
   },
   "DEU": {
     "lat": 51,
     "lng": 9,
     "cca2": "DE",
-    "cca3": "DEU"
+    "cca3": "DEU",
+    "region": "Western Europe"
   },
   "Djibouti": {
     "lat": 11.5,
     "lng": 43,
     "cca2": "DJ",
-    "cca3": "DJI"
+    "cca3": "DJI",
+    "region": "Eastern Africa"
   },
   "DJ": {
     "lat": 11.5,
     "lng": 43,
     "cca2": "DJ",
-    "cca3": "DJI"
+    "cca3": "DJI",
+    "region": "Eastern Africa"
   },
   "DJI": {
     "lat": 11.5,
     "lng": 43,
     "cca2": "DJ",
-    "cca3": "DJI"
+    "cca3": "DJI",
+    "region": "Eastern Africa"
   },
   "Dominica": {
     "lat": 15.41666666,
     "lng": -61.33333333,
     "cca2": "DM",
-    "cca3": "DMA"
+    "cca3": "DMA",
+    "region": "Caribbean"
   },
   "DM": {
     "lat": 15.41666666,
     "lng": -61.33333333,
     "cca2": "DM",
-    "cca3": "DMA"
+    "cca3": "DMA",
+    "region": "Caribbean"
   },
   "DMA": {
     "lat": 15.41666666,
     "lng": -61.33333333,
     "cca2": "DM",
-    "cca3": "DMA"
+    "cca3": "DMA",
+    "region": "Caribbean"
   },
   "Denmark": {
     "lat": 56,
     "lng": 10,
     "cca2": "DK",
-    "cca3": "DNK"
+    "cca3": "DNK",
+    "region": "Northern Europe"
   },
   "DK": {
     "lat": 56,
     "lng": 10,
     "cca2": "DK",
-    "cca3": "DNK"
+    "cca3": "DNK",
+    "region": "Northern Europe"
   },
   "DNK": {
     "lat": 56,
     "lng": 10,
     "cca2": "DK",
-    "cca3": "DNK"
+    "cca3": "DNK",
+    "region": "Northern Europe"
   },
   "Dominican Republic": {
     "lat": 19,
     "lng": -70.66666666,
     "cca2": "DO",
-    "cca3": "DOM"
+    "cca3": "DOM",
+    "region": "Caribbean"
   },
   "DO": {
     "lat": 19,
     "lng": -70.66666666,
     "cca2": "DO",
-    "cca3": "DOM"
+    "cca3": "DOM",
+    "region": "Caribbean"
   },
   "DOM": {
     "lat": 19,
     "lng": -70.66666666,
     "cca2": "DO",
-    "cca3": "DOM"
+    "cca3": "DOM",
+    "region": "Caribbean"
   },
   "Algeria": {
     "lat": 28,
     "lng": 3,
     "cca2": "DZ",
-    "cca3": "DZA"
+    "cca3": "DZA",
+    "region": "Northern Africa"
   },
   "DZ": {
     "lat": 28,
     "lng": 3,
     "cca2": "DZ",
-    "cca3": "DZA"
+    "cca3": "DZA",
+    "region": "Northern Africa"
   },
   "DZA": {
     "lat": 28,
     "lng": 3,
     "cca2": "DZ",
-    "cca3": "DZA"
+    "cca3": "DZA",
+    "region": "Northern Africa"
   },
   "Ecuador": {
     "lat": -2,
     "lng": -77.5,
     "cca2": "EC",
-    "cca3": "ECU"
+    "cca3": "ECU",
+    "region": "South America"
   },
   "EC": {
     "lat": -2,
     "lng": -77.5,
     "cca2": "EC",
-    "cca3": "ECU"
+    "cca3": "ECU",
+    "region": "South America"
   },
   "ECU": {
     "lat": -2,
     "lng": -77.5,
     "cca2": "EC",
-    "cca3": "ECU"
+    "cca3": "ECU",
+    "region": "South America"
   },
   "Egypt": {
     "lat": 27,
     "lng": 30,
     "cca2": "EG",
-    "cca3": "EGY"
+    "cca3": "EGY",
+    "region": "Northern Africa"
   },
   "EG": {
     "lat": 27,
     "lng": 30,
     "cca2": "EG",
-    "cca3": "EGY"
+    "cca3": "EGY",
+    "region": "Northern Africa"
   },
   "EGY": {
     "lat": 27,
     "lng": 30,
     "cca2": "EG",
-    "cca3": "EGY"
+    "cca3": "EGY",
+    "region": "Northern Africa"
   },
   "Eritrea": {
     "lat": 15,
     "lng": 39,
     "cca2": "ER",
-    "cca3": "ERI"
+    "cca3": "ERI",
+    "region": "Eastern Africa"
   },
   "ER": {
     "lat": 15,
     "lng": 39,
     "cca2": "ER",
-    "cca3": "ERI"
+    "cca3": "ERI",
+    "region": "Eastern Africa"
   },
   "ERI": {
     "lat": 15,
     "lng": 39,
     "cca2": "ER",
-    "cca3": "ERI"
+    "cca3": "ERI",
+    "region": "Eastern Africa"
   },
   "Western Sahara": {
     "lat": 24.5,
     "lng": -13,
     "cca2": "EH",
-    "cca3": "ESH"
+    "cca3": "ESH",
+    "region": "Northern Africa"
   },
   "EH": {
     "lat": 24.5,
     "lng": -13,
     "cca2": "EH",
-    "cca3": "ESH"
+    "cca3": "ESH",
+    "region": "Northern Africa"
   },
   "ESH": {
     "lat": 24.5,
     "lng": -13,
     "cca2": "EH",
-    "cca3": "ESH"
+    "cca3": "ESH",
+    "region": "Northern Africa"
   },
   "Spain": {
     "lat": 40,
     "lng": -4,
     "cca2": "ES",
-    "cca3": "ESP"
+    "cca3": "ESP",
+    "region": "Southern Europe"
   },
   "ES": {
     "lat": 40,
     "lng": -4,
     "cca2": "ES",
-    "cca3": "ESP"
+    "cca3": "ESP",
+    "region": "Southern Europe"
   },
   "ESP": {
     "lat": 40,
     "lng": -4,
     "cca2": "ES",
-    "cca3": "ESP"
+    "cca3": "ESP",
+    "region": "Southern Europe"
   },
   "Estonia": {
     "lat": 59,
     "lng": 26,
     "cca2": "EE",
-    "cca3": "EST"
+    "cca3": "EST",
+    "region": "Northern Europe"
   },
   "EE": {
     "lat": 59,
     "lng": 26,
     "cca2": "EE",
-    "cca3": "EST"
+    "cca3": "EST",
+    "region": "Northern Europe"
   },
   "EST": {
     "lat": 59,
     "lng": 26,
     "cca2": "EE",
-    "cca3": "EST"
+    "cca3": "EST",
+    "region": "Northern Europe"
   },
   "Ethiopia": {
     "lat": 8,
     "lng": 38,
     "cca2": "ET",
-    "cca3": "ETH"
+    "cca3": "ETH",
+    "region": "Eastern Africa"
   },
   "ET": {
     "lat": 8,
     "lng": 38,
     "cca2": "ET",
-    "cca3": "ETH"
+    "cca3": "ETH",
+    "region": "Eastern Africa"
   },
   "ETH": {
     "lat": 8,
     "lng": 38,
     "cca2": "ET",
-    "cca3": "ETH"
+    "cca3": "ETH",
+    "region": "Eastern Africa"
   },
   "Finland": {
     "lat": 64,
     "lng": 26,
     "cca2": "FI",
-    "cca3": "FIN"
+    "cca3": "FIN",
+    "region": "Northern Europe"
   },
   "FI": {
     "lat": 64,
     "lng": 26,
     "cca2": "FI",
-    "cca3": "FIN"
+    "cca3": "FIN",
+    "region": "Northern Europe"
   },
   "FIN": {
     "lat": 64,
     "lng": 26,
     "cca2": "FI",
-    "cca3": "FIN"
+    "cca3": "FIN",
+    "region": "Northern Europe"
   },
   "Fiji": {
     "lat": -18,
     "lng": 175,
     "cca2": "FJ",
-    "cca3": "FJI"
+    "cca3": "FJI",
+    "region": "Melanesia"
   },
   "FJ": {
     "lat": -18,
     "lng": 175,
     "cca2": "FJ",
-    "cca3": "FJI"
+    "cca3": "FJI",
+    "region": "Melanesia"
   },
   "FJI": {
     "lat": -18,
     "lng": 175,
     "cca2": "FJ",
-    "cca3": "FJI"
+    "cca3": "FJI",
+    "region": "Melanesia"
   },
   "Falkland Islands": {
     "lat": -51.75,
     "lng": -59,
     "cca2": "FK",
-    "cca3": "FLK"
+    "cca3": "FLK",
+    "region": "South America"
   },
   "FK": {
     "lat": -51.75,
     "lng": -59,
     "cca2": "FK",
-    "cca3": "FLK"
+    "cca3": "FLK",
+    "region": "South America"
   },
   "FLK": {
     "lat": -51.75,
     "lng": -59,
     "cca2": "FK",
-    "cca3": "FLK"
+    "cca3": "FLK",
+    "region": "South America"
   },
   "France": {
     "lat": 46,
     "lng": 2,
     "cca2": "FR",
-    "cca3": "FRA"
+    "cca3": "FRA",
+    "region": "Western Europe"
   },
   "FR": {
     "lat": 46,
     "lng": 2,
     "cca2": "FR",
-    "cca3": "FRA"
+    "cca3": "FRA",
+    "region": "Western Europe"
   },
   "FRA": {
     "lat": 46,
     "lng": 2,
     "cca2": "FR",
-    "cca3": "FRA"
+    "cca3": "FRA",
+    "region": "Western Europe"
   },
   "Faroe Islands": {
     "lat": 62,
     "lng": -7,
     "cca2": "FO",
-    "cca3": "FRO"
+    "cca3": "FRO",
+    "region": "Northern Europe"
   },
   "FO": {
     "lat": 62,
     "lng": -7,
     "cca2": "FO",
-    "cca3": "FRO"
+    "cca3": "FRO",
+    "region": "Northern Europe"
   },
   "FRO": {
     "lat": 62,
     "lng": -7,
     "cca2": "FO",
-    "cca3": "FRO"
+    "cca3": "FRO",
+    "region": "Northern Europe"
   },
   "Micronesia": {
     "lat": 6.91666666,
     "lng": 158.25,
     "cca2": "FM",
-    "cca3": "FSM"
+    "cca3": "FSM",
+    "region": "Micronesia"
   },
   "FM": {
     "lat": 6.91666666,
     "lng": 158.25,
     "cca2": "FM",
-    "cca3": "FSM"
+    "cca3": "FSM",
+    "region": "Micronesia"
   },
   "FSM": {
     "lat": 6.91666666,
     "lng": 158.25,
     "cca2": "FM",
-    "cca3": "FSM"
+    "cca3": "FSM",
+    "region": "Micronesia"
   },
   "Gabon": {
     "lat": -1,
     "lng": 11.75,
     "cca2": "GA",
-    "cca3": "GAB"
+    "cca3": "GAB",
+    "region": "Middle Africa"
   },
   "GA": {
     "lat": -1,
     "lng": 11.75,
     "cca2": "GA",
-    "cca3": "GAB"
+    "cca3": "GAB",
+    "region": "Middle Africa"
   },
   "GAB": {
     "lat": -1,
     "lng": 11.75,
     "cca2": "GA",
-    "cca3": "GAB"
+    "cca3": "GAB",
+    "region": "Middle Africa"
   },
   "United Kingdom": {
     "lat": 54,
     "lng": -2,
     "cca2": "GB",
-    "cca3": "GBR"
+    "cca3": "GBR",
+    "region": "Northern Europe"
   },
   "GB": {
     "lat": 54,
     "lng": -2,
     "cca2": "GB",
-    "cca3": "GBR"
+    "cca3": "GBR",
+    "region": "Northern Europe"
   },
   "GBR": {
     "lat": 54,
     "lng": -2,
     "cca2": "GB",
-    "cca3": "GBR"
+    "cca3": "GBR",
+    "region": "Northern Europe"
   },
   "Georgia": {
     "lat": 42,
     "lng": 43.5,
     "cca2": "GE",
-    "cca3": "GEO"
+    "cca3": "GEO",
+    "region": "Western Asia"
   },
   "GE": {
     "lat": 42,
     "lng": 43.5,
     "cca2": "GE",
-    "cca3": "GEO"
+    "cca3": "GEO",
+    "region": "Western Asia"
   },
   "GEO": {
     "lat": 42,
     "lng": 43.5,
     "cca2": "GE",
-    "cca3": "GEO"
+    "cca3": "GEO",
+    "region": "Western Asia"
   },
   "Guernsey": {
     "lat": 49.46666666,
     "lng": -2.58333333,
     "cca2": "GG",
-    "cca3": "GGY"
+    "cca3": "GGY",
+    "region": "Northern Europe"
   },
   "GG": {
     "lat": 49.46666666,
     "lng": -2.58333333,
     "cca2": "GG",
-    "cca3": "GGY"
+    "cca3": "GGY",
+    "region": "Northern Europe"
   },
   "GGY": {
     "lat": 49.46666666,
     "lng": -2.58333333,
     "cca2": "GG",
-    "cca3": "GGY"
+    "cca3": "GGY",
+    "region": "Northern Europe"
   },
   "Ghana": {
     "lat": 8,
     "lng": -2,
     "cca2": "GH",
-    "cca3": "GHA"
+    "cca3": "GHA",
+    "region": "Western Africa"
   },
   "GH": {
     "lat": 8,
     "lng": -2,
     "cca2": "GH",
-    "cca3": "GHA"
+    "cca3": "GHA",
+    "region": "Western Africa"
   },
   "GHA": {
     "lat": 8,
     "lng": -2,
     "cca2": "GH",
-    "cca3": "GHA"
+    "cca3": "GHA",
+    "region": "Western Africa"
   },
   "Gibraltar": {
     "lat": 36.13333333,
     "lng": -5.35,
     "cca2": "GI",
-    "cca3": "GIB"
+    "cca3": "GIB",
+    "region": "Southern Europe"
   },
   "GI": {
     "lat": 36.13333333,
     "lng": -5.35,
     "cca2": "GI",
-    "cca3": "GIB"
+    "cca3": "GIB",
+    "region": "Southern Europe"
   },
   "GIB": {
     "lat": 36.13333333,
     "lng": -5.35,
     "cca2": "GI",
-    "cca3": "GIB"
+    "cca3": "GIB",
+    "region": "Southern Europe"
   },
   "Guinea": {
     "lat": 11,
     "lng": -10,
     "cca2": "GN",
-    "cca3": "GIN"
+    "cca3": "GIN",
+    "region": "Western Africa"
   },
   "GN": {
     "lat": 11,
     "lng": -10,
     "cca2": "GN",
-    "cca3": "GIN"
+    "cca3": "GIN",
+    "region": "Western Africa"
   },
   "GIN": {
     "lat": 11,
     "lng": -10,
     "cca2": "GN",
-    "cca3": "GIN"
+    "cca3": "GIN",
+    "region": "Western Africa"
   },
   "Guadeloupe": {
     "lat": 16.25,
     "lng": -61.583333,
     "cca2": "GP",
-    "cca3": "GLP"
+    "cca3": "GLP",
+    "region": "Caribbean"
   },
   "GP": {
     "lat": 16.25,
     "lng": -61.583333,
     "cca2": "GP",
-    "cca3": "GLP"
+    "cca3": "GLP",
+    "region": "Caribbean"
   },
   "GLP": {
     "lat": 16.25,
     "lng": -61.583333,
     "cca2": "GP",
-    "cca3": "GLP"
+    "cca3": "GLP",
+    "region": "Caribbean"
   },
   "Gambia": {
     "lat": 13.46666666,
     "lng": -16.56666666,
     "cca2": "GM",
-    "cca3": "GMB"
+    "cca3": "GMB",
+    "region": "Western Africa"
   },
   "GM": {
     "lat": 13.46666666,
     "lng": -16.56666666,
     "cca2": "GM",
-    "cca3": "GMB"
+    "cca3": "GMB",
+    "region": "Western Africa"
   },
   "GMB": {
     "lat": 13.46666666,
     "lng": -16.56666666,
     "cca2": "GM",
-    "cca3": "GMB"
+    "cca3": "GMB",
+    "region": "Western Africa"
   },
   "Guinea-Bissau": {
     "lat": 12,
     "lng": -15,
     "cca2": "GW",
-    "cca3": "GNB"
+    "cca3": "GNB",
+    "region": "Western Africa"
   },
   "GW": {
     "lat": 12,
     "lng": -15,
     "cca2": "GW",
-    "cca3": "GNB"
+    "cca3": "GNB",
+    "region": "Western Africa"
   },
   "GNB": {
     "lat": 12,
     "lng": -15,
     "cca2": "GW",
-    "cca3": "GNB"
+    "cca3": "GNB",
+    "region": "Western Africa"
   },
   "Equatorial Guinea": {
     "lat": 2,
     "lng": 10,
     "cca2": "GQ",
-    "cca3": "GNQ"
+    "cca3": "GNQ",
+    "region": "Middle Africa"
   },
   "GQ": {
     "lat": 2,
     "lng": 10,
     "cca2": "GQ",
-    "cca3": "GNQ"
+    "cca3": "GNQ",
+    "region": "Middle Africa"
   },
   "GNQ": {
     "lat": 2,
     "lng": 10,
     "cca2": "GQ",
-    "cca3": "GNQ"
+    "cca3": "GNQ",
+    "region": "Middle Africa"
   },
   "Greece": {
     "lat": 39,
     "lng": 22,
     "cca2": "GR",
-    "cca3": "GRC"
+    "cca3": "GRC",
+    "region": "Southern Europe"
   },
   "GR": {
     "lat": 39,
     "lng": 22,
     "cca2": "GR",
-    "cca3": "GRC"
+    "cca3": "GRC",
+    "region": "Southern Europe"
   },
   "GRC": {
     "lat": 39,
     "lng": 22,
     "cca2": "GR",
-    "cca3": "GRC"
+    "cca3": "GRC",
+    "region": "Southern Europe"
   },
   "Grenada": {
     "lat": 12.11666666,
     "lng": -61.66666666,
     "cca2": "GD",
-    "cca3": "GRD"
+    "cca3": "GRD",
+    "region": "Caribbean"
   },
   "GD": {
     "lat": 12.11666666,
     "lng": -61.66666666,
     "cca2": "GD",
-    "cca3": "GRD"
+    "cca3": "GRD",
+    "region": "Caribbean"
   },
   "GRD": {
     "lat": 12.11666666,
     "lng": -61.66666666,
     "cca2": "GD",
-    "cca3": "GRD"
+    "cca3": "GRD",
+    "region": "Caribbean"
   },
   "Greenland": {
     "lat": 72,
     "lng": -40,
     "cca2": "GL",
-    "cca3": "GRL"
+    "cca3": "GRL",
+    "region": "North America"
   },
   "GL": {
     "lat": 72,
     "lng": -40,
     "cca2": "GL",
-    "cca3": "GRL"
+    "cca3": "GRL",
+    "region": "North America"
   },
   "GRL": {
     "lat": 72,
     "lng": -40,
     "cca2": "GL",
-    "cca3": "GRL"
+    "cca3": "GRL",
+    "region": "North America"
   },
   "Guatemala": {
     "lat": 15.5,
     "lng": -90.25,
     "cca2": "GT",
-    "cca3": "GTM"
+    "cca3": "GTM",
+    "region": "Central America"
   },
   "GT": {
     "lat": 15.5,
     "lng": -90.25,
     "cca2": "GT",
-    "cca3": "GTM"
+    "cca3": "GTM",
+    "region": "Central America"
   },
   "GTM": {
     "lat": 15.5,
     "lng": -90.25,
     "cca2": "GT",
-    "cca3": "GTM"
+    "cca3": "GTM",
+    "region": "Central America"
   },
   "French Guiana": {
     "lat": 4,
     "lng": -53,
     "cca2": "GF",
-    "cca3": "GUF"
+    "cca3": "GUF",
+    "region": "South America"
   },
   "GF": {
     "lat": 4,
     "lng": -53,
     "cca2": "GF",
-    "cca3": "GUF"
+    "cca3": "GUF",
+    "region": "South America"
   },
   "GUF": {
     "lat": 4,
     "lng": -53,
     "cca2": "GF",
-    "cca3": "GUF"
+    "cca3": "GUF",
+    "region": "South America"
   },
   "Guam": {
     "lat": 13.46666666,
     "lng": 144.78333333,
     "cca2": "GU",
-    "cca3": "GUM"
+    "cca3": "GUM",
+    "region": "Micronesia"
   },
   "GU": {
     "lat": 13.46666666,
     "lng": 144.78333333,
     "cca2": "GU",
-    "cca3": "GUM"
+    "cca3": "GUM",
+    "region": "Micronesia"
   },
   "GUM": {
     "lat": 13.46666666,
     "lng": 144.78333333,
     "cca2": "GU",
-    "cca3": "GUM"
+    "cca3": "GUM",
+    "region": "Micronesia"
   },
   "Guyana": {
     "lat": 5,
     "lng": -59,
     "cca2": "GY",
-    "cca3": "GUY"
+    "cca3": "GUY",
+    "region": "South America"
   },
   "GY": {
     "lat": 5,
     "lng": -59,
     "cca2": "GY",
-    "cca3": "GUY"
+    "cca3": "GUY",
+    "region": "South America"
   },
   "GUY": {
     "lat": 5,
     "lng": -59,
     "cca2": "GY",
-    "cca3": "GUY"
+    "cca3": "GUY",
+    "region": "South America"
   },
   "Hong Kong": {
     "lat": 22.267,
     "lng": 114.188,
     "cca2": "HK",
-    "cca3": "HKG"
+    "cca3": "HKG",
+    "region": "Eastern Asia"
   },
   "HK": {
     "lat": 22.267,
     "lng": 114.188,
     "cca2": "HK",
-    "cca3": "HKG"
+    "cca3": "HKG",
+    "region": "Eastern Asia"
   },
   "HKG": {
     "lat": 22.267,
     "lng": 114.188,
     "cca2": "HK",
-    "cca3": "HKG"
+    "cca3": "HKG",
+    "region": "Eastern Asia"
   },
   "Heard Island and McDonald Islands": {
     "lat": -53.1,
     "lng": 72.51666666,
     "cca2": "HM",
-    "cca3": "HMD"
+    "cca3": "HMD",
+    "region": "Antarctic"
   },
   "HM": {
     "lat": -53.1,
     "lng": 72.51666666,
     "cca2": "HM",
-    "cca3": "HMD"
+    "cca3": "HMD",
+    "region": "Antarctic"
   },
   "HMD": {
     "lat": -53.1,
     "lng": 72.51666666,
     "cca2": "HM",
-    "cca3": "HMD"
+    "cca3": "HMD",
+    "region": "Antarctic"
   },
   "Honduras": {
     "lat": 15,
     "lng": -86.5,
     "cca2": "HN",
-    "cca3": "HND"
+    "cca3": "HND",
+    "region": "Central America"
   },
   "HN": {
     "lat": 15,
     "lng": -86.5,
     "cca2": "HN",
-    "cca3": "HND"
+    "cca3": "HND",
+    "region": "Central America"
   },
   "HND": {
     "lat": 15,
     "lng": -86.5,
     "cca2": "HN",
-    "cca3": "HND"
+    "cca3": "HND",
+    "region": "Central America"
   },
   "Croatia": {
     "lat": 45.16666666,
     "lng": 15.5,
     "cca2": "HR",
-    "cca3": "HRV"
+    "cca3": "HRV",
+    "region": "Southeast Europe"
   },
   "HR": {
     "lat": 45.16666666,
     "lng": 15.5,
     "cca2": "HR",
-    "cca3": "HRV"
+    "cca3": "HRV",
+    "region": "Southeast Europe"
   },
   "HRV": {
     "lat": 45.16666666,
     "lng": 15.5,
     "cca2": "HR",
-    "cca3": "HRV"
+    "cca3": "HRV",
+    "region": "Southeast Europe"
   },
   "Haiti": {
     "lat": 19,
     "lng": -72.41666666,
     "cca2": "HT",
-    "cca3": "HTI"
+    "cca3": "HTI",
+    "region": "Caribbean"
   },
   "HT": {
     "lat": 19,
     "lng": -72.41666666,
     "cca2": "HT",
-    "cca3": "HTI"
+    "cca3": "HTI",
+    "region": "Caribbean"
   },
   "HTI": {
     "lat": 19,
     "lng": -72.41666666,
     "cca2": "HT",
-    "cca3": "HTI"
+    "cca3": "HTI",
+    "region": "Caribbean"
   },
   "Hungary": {
     "lat": 47,
     "lng": 20,
     "cca2": "HU",
-    "cca3": "HUN"
+    "cca3": "HUN",
+    "region": "Central Europe"
   },
   "HU": {
     "lat": 47,
     "lng": 20,
     "cca2": "HU",
-    "cca3": "HUN"
+    "cca3": "HUN",
+    "region": "Central Europe"
   },
   "HUN": {
     "lat": 47,
     "lng": 20,
     "cca2": "HU",
-    "cca3": "HUN"
+    "cca3": "HUN",
+    "region": "Central Europe"
   },
   "Indonesia": {
     "lat": -5,
     "lng": 120,
     "cca2": "ID",
-    "cca3": "IDN"
+    "cca3": "IDN",
+    "region": "South-Eastern Asia"
   },
   "ID": {
     "lat": -5,
     "lng": 120,
     "cca2": "ID",
-    "cca3": "IDN"
+    "cca3": "IDN",
+    "region": "South-Eastern Asia"
   },
   "IDN": {
     "lat": -5,
     "lng": 120,
     "cca2": "ID",
-    "cca3": "IDN"
+    "cca3": "IDN",
+    "region": "South-Eastern Asia"
   },
   "Isle of Man": {
     "lat": 54.25,
     "lng": -4.5,
     "cca2": "IM",
-    "cca3": "IMN"
+    "cca3": "IMN",
+    "region": "Northern Europe"
   },
   "IM": {
     "lat": 54.25,
     "lng": -4.5,
     "cca2": "IM",
-    "cca3": "IMN"
+    "cca3": "IMN",
+    "region": "Northern Europe"
   },
   "IMN": {
     "lat": 54.25,
     "lng": -4.5,
     "cca2": "IM",
-    "cca3": "IMN"
+    "cca3": "IMN",
+    "region": "Northern Europe"
   },
   "India": {
     "lat": 20,
     "lng": 77,
     "cca2": "IN",
-    "cca3": "IND"
+    "cca3": "IND",
+    "region": "Southern Asia"
   },
   "IN": {
     "lat": 20,
     "lng": 77,
     "cca2": "IN",
-    "cca3": "IND"
+    "cca3": "IND",
+    "region": "Southern Asia"
   },
   "IND": {
     "lat": 20,
     "lng": 77,
     "cca2": "IN",
-    "cca3": "IND"
+    "cca3": "IND",
+    "region": "Southern Asia"
   },
   "British Indian Ocean Territory": {
     "lat": -6,
     "lng": 71.5,
     "cca2": "IO",
-    "cca3": "IOT"
+    "cca3": "IOT",
+    "region": "Eastern Africa"
   },
   "IO": {
     "lat": -6,
     "lng": 71.5,
     "cca2": "IO",
-    "cca3": "IOT"
+    "cca3": "IOT",
+    "region": "Eastern Africa"
   },
   "IOT": {
     "lat": -6,
     "lng": 71.5,
     "cca2": "IO",
-    "cca3": "IOT"
+    "cca3": "IOT",
+    "region": "Eastern Africa"
   },
   "Ireland": {
     "lat": 53,
     "lng": -8,
     "cca2": "IE",
-    "cca3": "IRL"
+    "cca3": "IRL",
+    "region": "Northern Europe"
   },
   "IE": {
     "lat": 53,
     "lng": -8,
     "cca2": "IE",
-    "cca3": "IRL"
+    "cca3": "IRL",
+    "region": "Northern Europe"
   },
   "IRL": {
     "lat": 53,
     "lng": -8,
     "cca2": "IE",
-    "cca3": "IRL"
+    "cca3": "IRL",
+    "region": "Northern Europe"
   },
   "Iran": {
     "lat": 32,
     "lng": 53,
     "cca2": "IR",
-    "cca3": "IRN"
+    "cca3": "IRN",
+    "region": "Southern Asia"
   },
   "IR": {
     "lat": 32,
     "lng": 53,
     "cca2": "IR",
-    "cca3": "IRN"
+    "cca3": "IRN",
+    "region": "Southern Asia"
   },
   "IRN": {
     "lat": 32,
     "lng": 53,
     "cca2": "IR",
-    "cca3": "IRN"
+    "cca3": "IRN",
+    "region": "Southern Asia"
   },
   "Iraq": {
     "lat": 33,
     "lng": 44,
     "cca2": "IQ",
-    "cca3": "IRQ"
+    "cca3": "IRQ",
+    "region": "Western Asia"
   },
   "IQ": {
     "lat": 33,
     "lng": 44,
     "cca2": "IQ",
-    "cca3": "IRQ"
+    "cca3": "IRQ",
+    "region": "Western Asia"
   },
   "IRQ": {
     "lat": 33,
     "lng": 44,
     "cca2": "IQ",
-    "cca3": "IRQ"
+    "cca3": "IRQ",
+    "region": "Western Asia"
   },
   "Iceland": {
     "lat": 65,
     "lng": -18,
     "cca2": "IS",
-    "cca3": "ISL"
+    "cca3": "ISL",
+    "region": "Northern Europe"
   },
   "IS": {
     "lat": 65,
     "lng": -18,
     "cca2": "IS",
-    "cca3": "ISL"
+    "cca3": "ISL",
+    "region": "Northern Europe"
   },
   "ISL": {
     "lat": 65,
     "lng": -18,
     "cca2": "IS",
-    "cca3": "ISL"
+    "cca3": "ISL",
+    "region": "Northern Europe"
   },
   "Israel": {
     "lat": 31.47,
     "lng": 35.13,
     "cca2": "IL",
-    "cca3": "ISR"
+    "cca3": "ISR",
+    "region": "Western Asia"
   },
   "IL": {
     "lat": 31.47,
     "lng": 35.13,
     "cca2": "IL",
-    "cca3": "ISR"
+    "cca3": "ISR",
+    "region": "Western Asia"
   },
   "ISR": {
     "lat": 31.47,
     "lng": 35.13,
     "cca2": "IL",
-    "cca3": "ISR"
+    "cca3": "ISR",
+    "region": "Western Asia"
   },
   "Italy": {
     "lat": 42.83333333,
     "lng": 12.83333333,
     "cca2": "IT",
-    "cca3": "ITA"
+    "cca3": "ITA",
+    "region": "Southern Europe"
   },
   "IT": {
     "lat": 42.83333333,
     "lng": 12.83333333,
     "cca2": "IT",
-    "cca3": "ITA"
+    "cca3": "ITA",
+    "region": "Southern Europe"
   },
   "ITA": {
     "lat": 42.83333333,
     "lng": 12.83333333,
     "cca2": "IT",
-    "cca3": "ITA"
+    "cca3": "ITA",
+    "region": "Southern Europe"
   },
   "Jamaica": {
     "lat": 18.25,
     "lng": -77.5,
     "cca2": "JM",
-    "cca3": "JAM"
+    "cca3": "JAM",
+    "region": "Caribbean"
   },
   "JM": {
     "lat": 18.25,
     "lng": -77.5,
     "cca2": "JM",
-    "cca3": "JAM"
+    "cca3": "JAM",
+    "region": "Caribbean"
   },
   "JAM": {
     "lat": 18.25,
     "lng": -77.5,
     "cca2": "JM",
-    "cca3": "JAM"
+    "cca3": "JAM",
+    "region": "Caribbean"
   },
   "Jersey": {
     "lat": 49.25,
     "lng": -2.16666666,
     "cca2": "JE",
-    "cca3": "JEY"
+    "cca3": "JEY",
+    "region": "Northern Europe"
   },
   "JE": {
     "lat": 49.25,
     "lng": -2.16666666,
     "cca2": "JE",
-    "cca3": "JEY"
+    "cca3": "JEY",
+    "region": "Northern Europe"
   },
   "JEY": {
     "lat": 49.25,
     "lng": -2.16666666,
     "cca2": "JE",
-    "cca3": "JEY"
+    "cca3": "JEY",
+    "region": "Northern Europe"
   },
   "Jordan": {
     "lat": 31,
     "lng": 36,
     "cca2": "JO",
-    "cca3": "JOR"
+    "cca3": "JOR",
+    "region": "Western Asia"
   },
   "JO": {
     "lat": 31,
     "lng": 36,
     "cca2": "JO",
-    "cca3": "JOR"
+    "cca3": "JOR",
+    "region": "Western Asia"
   },
   "JOR": {
     "lat": 31,
     "lng": 36,
     "cca2": "JO",
-    "cca3": "JOR"
+    "cca3": "JOR",
+    "region": "Western Asia"
   },
   "Japan": {
     "lat": 36,
     "lng": 138,
     "cca2": "JP",
-    "cca3": "JPN"
+    "cca3": "JPN",
+    "region": "Eastern Asia"
   },
   "JP": {
     "lat": 36,
     "lng": 138,
     "cca2": "JP",
-    "cca3": "JPN"
+    "cca3": "JPN",
+    "region": "Eastern Asia"
   },
   "JPN": {
     "lat": 36,
     "lng": 138,
     "cca2": "JP",
-    "cca3": "JPN"
+    "cca3": "JPN",
+    "region": "Eastern Asia"
   },
   "Kazakhstan": {
     "lat": 48,
     "lng": 68,
     "cca2": "KZ",
-    "cca3": "KAZ"
+    "cca3": "KAZ",
+    "region": "Central Asia"
   },
   "KZ": {
     "lat": 48,
     "lng": 68,
     "cca2": "KZ",
-    "cca3": "KAZ"
+    "cca3": "KAZ",
+    "region": "Central Asia"
   },
   "KAZ": {
     "lat": 48,
     "lng": 68,
     "cca2": "KZ",
-    "cca3": "KAZ"
+    "cca3": "KAZ",
+    "region": "Central Asia"
   },
   "Kenya": {
     "lat": 1,
     "lng": 38,
     "cca2": "KE",
-    "cca3": "KEN"
+    "cca3": "KEN",
+    "region": "Eastern Africa"
   },
   "KE": {
     "lat": 1,
     "lng": 38,
     "cca2": "KE",
-    "cca3": "KEN"
+    "cca3": "KEN",
+    "region": "Eastern Africa"
   },
   "KEN": {
     "lat": 1,
     "lng": 38,
     "cca2": "KE",
-    "cca3": "KEN"
+    "cca3": "KEN",
+    "region": "Eastern Africa"
   },
   "Kyrgyzstan": {
     "lat": 41,
     "lng": 75,
     "cca2": "KG",
-    "cca3": "KGZ"
+    "cca3": "KGZ",
+    "region": "Central Asia"
   },
   "KG": {
     "lat": 41,
     "lng": 75,
     "cca2": "KG",
-    "cca3": "KGZ"
+    "cca3": "KGZ",
+    "region": "Central Asia"
   },
   "KGZ": {
     "lat": 41,
     "lng": 75,
     "cca2": "KG",
-    "cca3": "KGZ"
+    "cca3": "KGZ",
+    "region": "Central Asia"
   },
   "Cambodia": {
     "lat": 13,
     "lng": 105,
     "cca2": "KH",
-    "cca3": "KHM"
+    "cca3": "KHM",
+    "region": "South-Eastern Asia"
   },
   "KH": {
     "lat": 13,
     "lng": 105,
     "cca2": "KH",
-    "cca3": "KHM"
+    "cca3": "KHM",
+    "region": "South-Eastern Asia"
   },
   "KHM": {
     "lat": 13,
     "lng": 105,
     "cca2": "KH",
-    "cca3": "KHM"
+    "cca3": "KHM",
+    "region": "South-Eastern Asia"
   },
   "Kiribati": {
     "lat": 1.41666666,
     "lng": 173,
     "cca2": "KI",
-    "cca3": "KIR"
+    "cca3": "KIR",
+    "region": "Micronesia"
   },
   "KI": {
     "lat": 1.41666666,
     "lng": 173,
     "cca2": "KI",
-    "cca3": "KIR"
+    "cca3": "KIR",
+    "region": "Micronesia"
   },
   "KIR": {
     "lat": 1.41666666,
     "lng": 173,
     "cca2": "KI",
-    "cca3": "KIR"
+    "cca3": "KIR",
+    "region": "Micronesia"
   },
   "Saint Kitts and Nevis": {
     "lat": 17.33333333,
     "lng": -62.75,
     "cca2": "KN",
-    "cca3": "KNA"
+    "cca3": "KNA",
+    "region": "Caribbean"
   },
   "KN": {
     "lat": 17.33333333,
     "lng": -62.75,
     "cca2": "KN",
-    "cca3": "KNA"
+    "cca3": "KNA",
+    "region": "Caribbean"
   },
   "KNA": {
     "lat": 17.33333333,
     "lng": -62.75,
     "cca2": "KN",
-    "cca3": "KNA"
+    "cca3": "KNA",
+    "region": "Caribbean"
   },
   "South Korea": {
     "lat": 37,
     "lng": 127.5,
     "cca2": "KR",
-    "cca3": "KOR"
+    "cca3": "KOR",
+    "region": "Eastern Asia"
   },
   "KR": {
     "lat": 37,
     "lng": 127.5,
     "cca2": "KR",
-    "cca3": "KOR"
+    "cca3": "KOR",
+    "region": "Eastern Asia"
   },
   "KOR": {
     "lat": 37,
     "lng": 127.5,
     "cca2": "KR",
-    "cca3": "KOR"
+    "cca3": "KOR",
+    "region": "Eastern Asia"
   },
   "Kosovo": {
     "lat": 42.666667,
     "lng": 21.166667,
     "cca2": "XK",
-    "cca3": "UNK"
+    "cca3": "UNK",
+    "region": "Southeast Europe"
   },
   "XK": {
     "lat": 42.666667,
     "lng": 21.166667,
     "cca2": "XK",
-    "cca3": "UNK"
+    "cca3": "UNK",
+    "region": "Southeast Europe"
   },
   "UNK": {
     "lat": 42.666667,
     "lng": 21.166667,
     "cca2": "XK",
-    "cca3": "UNK"
+    "cca3": "UNK",
+    "region": "Southeast Europe"
   },
   "Kuwait": {
     "lat": 29.5,
     "lng": 45.75,
     "cca2": "KW",
-    "cca3": "KWT"
+    "cca3": "KWT",
+    "region": "Western Asia"
   },
   "KW": {
     "lat": 29.5,
     "lng": 45.75,
     "cca2": "KW",
-    "cca3": "KWT"
+    "cca3": "KWT",
+    "region": "Western Asia"
   },
   "KWT": {
     "lat": 29.5,
     "lng": 45.75,
     "cca2": "KW",
-    "cca3": "KWT"
+    "cca3": "KWT",
+    "region": "Western Asia"
   },
   "Laos": {
     "lat": 18,
     "lng": 105,
     "cca2": "LA",
-    "cca3": "LAO"
+    "cca3": "LAO",
+    "region": "South-Eastern Asia"
   },
   "LA": {
     "lat": 18,
     "lng": 105,
     "cca2": "LA",
-    "cca3": "LAO"
+    "cca3": "LAO",
+    "region": "South-Eastern Asia"
   },
   "LAO": {
     "lat": 18,
     "lng": 105,
     "cca2": "LA",
-    "cca3": "LAO"
+    "cca3": "LAO",
+    "region": "South-Eastern Asia"
   },
   "Lebanon": {
     "lat": 33.83333333,
     "lng": 35.83333333,
     "cca2": "LB",
-    "cca3": "LBN"
+    "cca3": "LBN",
+    "region": "Western Asia"
   },
   "LB": {
     "lat": 33.83333333,
     "lng": 35.83333333,
     "cca2": "LB",
-    "cca3": "LBN"
+    "cca3": "LBN",
+    "region": "Western Asia"
   },
   "LBN": {
     "lat": 33.83333333,
     "lng": 35.83333333,
     "cca2": "LB",
-    "cca3": "LBN"
+    "cca3": "LBN",
+    "region": "Western Asia"
   },
   "Liberia": {
     "lat": 6.5,
     "lng": -9.5,
     "cca2": "LR",
-    "cca3": "LBR"
+    "cca3": "LBR",
+    "region": "Western Africa"
   },
   "LR": {
     "lat": 6.5,
     "lng": -9.5,
     "cca2": "LR",
-    "cca3": "LBR"
+    "cca3": "LBR",
+    "region": "Western Africa"
   },
   "LBR": {
     "lat": 6.5,
     "lng": -9.5,
     "cca2": "LR",
-    "cca3": "LBR"
+    "cca3": "LBR",
+    "region": "Western Africa"
   },
   "Libya": {
     "lat": 25,
     "lng": 17,
     "cca2": "LY",
-    "cca3": "LBY"
+    "cca3": "LBY",
+    "region": "Northern Africa"
   },
   "LY": {
     "lat": 25,
     "lng": 17,
     "cca2": "LY",
-    "cca3": "LBY"
+    "cca3": "LBY",
+    "region": "Northern Africa"
   },
   "LBY": {
     "lat": 25,
     "lng": 17,
     "cca2": "LY",
-    "cca3": "LBY"
+    "cca3": "LBY",
+    "region": "Northern Africa"
   },
   "Saint Lucia": {
     "lat": 13.88333333,
     "lng": -60.96666666,
     "cca2": "LC",
-    "cca3": "LCA"
+    "cca3": "LCA",
+    "region": "Caribbean"
   },
   "LC": {
     "lat": 13.88333333,
     "lng": -60.96666666,
     "cca2": "LC",
-    "cca3": "LCA"
+    "cca3": "LCA",
+    "region": "Caribbean"
   },
   "LCA": {
     "lat": 13.88333333,
     "lng": -60.96666666,
     "cca2": "LC",
-    "cca3": "LCA"
+    "cca3": "LCA",
+    "region": "Caribbean"
   },
   "Liechtenstein": {
     "lat": 47.26666666,
     "lng": 9.53333333,
     "cca2": "LI",
-    "cca3": "LIE"
+    "cca3": "LIE",
+    "region": "Western Europe"
   },
   "LI": {
     "lat": 47.26666666,
     "lng": 9.53333333,
     "cca2": "LI",
-    "cca3": "LIE"
+    "cca3": "LIE",
+    "region": "Western Europe"
   },
   "LIE": {
     "lat": 47.26666666,
     "lng": 9.53333333,
     "cca2": "LI",
-    "cca3": "LIE"
+    "cca3": "LIE",
+    "region": "Western Europe"
   },
   "Sri Lanka": {
     "lat": 7,
     "lng": 81,
     "cca2": "LK",
-    "cca3": "LKA"
+    "cca3": "LKA",
+    "region": "Southern Asia"
   },
   "LK": {
     "lat": 7,
     "lng": 81,
     "cca2": "LK",
-    "cca3": "LKA"
+    "cca3": "LKA",
+    "region": "Southern Asia"
   },
   "LKA": {
     "lat": 7,
     "lng": 81,
     "cca2": "LK",
-    "cca3": "LKA"
+    "cca3": "LKA",
+    "region": "Southern Asia"
   },
   "Lesotho": {
     "lat": -29.5,
     "lng": 28.5,
     "cca2": "LS",
-    "cca3": "LSO"
+    "cca3": "LSO",
+    "region": "Southern Africa"
   },
   "LS": {
     "lat": -29.5,
     "lng": 28.5,
     "cca2": "LS",
-    "cca3": "LSO"
+    "cca3": "LSO",
+    "region": "Southern Africa"
   },
   "LSO": {
     "lat": -29.5,
     "lng": 28.5,
     "cca2": "LS",
-    "cca3": "LSO"
+    "cca3": "LSO",
+    "region": "Southern Africa"
   },
   "Lithuania": {
     "lat": 56,
     "lng": 24,
     "cca2": "LT",
-    "cca3": "LTU"
+    "cca3": "LTU",
+    "region": "Northern Europe"
   },
   "LT": {
     "lat": 56,
     "lng": 24,
     "cca2": "LT",
-    "cca3": "LTU"
+    "cca3": "LTU",
+    "region": "Northern Europe"
   },
   "LTU": {
     "lat": 56,
     "lng": 24,
     "cca2": "LT",
-    "cca3": "LTU"
+    "cca3": "LTU",
+    "region": "Northern Europe"
   },
   "Luxembourg": {
     "lat": 49.75,
     "lng": 6.16666666,
     "cca2": "LU",
-    "cca3": "LUX"
+    "cca3": "LUX",
+    "region": "Western Europe"
   },
   "LU": {
     "lat": 49.75,
     "lng": 6.16666666,
     "cca2": "LU",
-    "cca3": "LUX"
+    "cca3": "LUX",
+    "region": "Western Europe"
   },
   "LUX": {
     "lat": 49.75,
     "lng": 6.16666666,
     "cca2": "LU",
-    "cca3": "LUX"
+    "cca3": "LUX",
+    "region": "Western Europe"
   },
   "Latvia": {
     "lat": 57,
     "lng": 25,
     "cca2": "LV",
-    "cca3": "LVA"
+    "cca3": "LVA",
+    "region": "Northern Europe"
   },
   "LV": {
     "lat": 57,
     "lng": 25,
     "cca2": "LV",
-    "cca3": "LVA"
+    "cca3": "LVA",
+    "region": "Northern Europe"
   },
   "LVA": {
     "lat": 57,
     "lng": 25,
     "cca2": "LV",
-    "cca3": "LVA"
+    "cca3": "LVA",
+    "region": "Northern Europe"
   },
   "Macau": {
     "lat": 22.16666666,
     "lng": 113.55,
     "cca2": "MO",
-    "cca3": "MAC"
+    "cca3": "MAC",
+    "region": "Eastern Asia"
   },
   "MO": {
     "lat": 22.16666666,
     "lng": 113.55,
     "cca2": "MO",
-    "cca3": "MAC"
+    "cca3": "MAC",
+    "region": "Eastern Asia"
   },
   "MAC": {
     "lat": 22.16666666,
     "lng": 113.55,
     "cca2": "MO",
-    "cca3": "MAC"
+    "cca3": "MAC",
+    "region": "Eastern Asia"
   },
   "Saint Martin": {
     "lat": 18.08333333,
     "lng": -63.95,
     "cca2": "MF",
-    "cca3": "MAF"
+    "cca3": "MAF",
+    "region": "Caribbean"
   },
   "MF": {
     "lat": 18.08333333,
     "lng": -63.95,
     "cca2": "MF",
-    "cca3": "MAF"
+    "cca3": "MAF",
+    "region": "Caribbean"
   },
   "MAF": {
     "lat": 18.08333333,
     "lng": -63.95,
     "cca2": "MF",
-    "cca3": "MAF"
+    "cca3": "MAF",
+    "region": "Caribbean"
   },
   "Morocco": {
     "lat": 32,
     "lng": -5,
     "cca2": "MA",
-    "cca3": "MAR"
+    "cca3": "MAR",
+    "region": "Northern Africa"
   },
   "MA": {
     "lat": 32,
     "lng": -5,
     "cca2": "MA",
-    "cca3": "MAR"
+    "cca3": "MAR",
+    "region": "Northern Africa"
   },
   "MAR": {
     "lat": 32,
     "lng": -5,
     "cca2": "MA",
-    "cca3": "MAR"
+    "cca3": "MAR",
+    "region": "Northern Africa"
   },
   "Monaco": {
     "lat": 43.73333333,
     "lng": 7.4,
     "cca2": "MC",
-    "cca3": "MCO"
+    "cca3": "MCO",
+    "region": "Western Europe"
   },
   "MC": {
     "lat": 43.73333333,
     "lng": 7.4,
     "cca2": "MC",
-    "cca3": "MCO"
+    "cca3": "MCO",
+    "region": "Western Europe"
   },
   "MCO": {
     "lat": 43.73333333,
     "lng": 7.4,
     "cca2": "MC",
-    "cca3": "MCO"
+    "cca3": "MCO",
+    "region": "Western Europe"
   },
   "Moldova": {
     "lat": 47,
     "lng": 29,
     "cca2": "MD",
-    "cca3": "MDA"
+    "cca3": "MDA",
+    "region": "Eastern Europe"
   },
   "MD": {
     "lat": 47,
     "lng": 29,
     "cca2": "MD",
-    "cca3": "MDA"
+    "cca3": "MDA",
+    "region": "Eastern Europe"
   },
   "MDA": {
     "lat": 47,
     "lng": 29,
     "cca2": "MD",
-    "cca3": "MDA"
+    "cca3": "MDA",
+    "region": "Eastern Europe"
   },
   "Madagascar": {
     "lat": -20,
     "lng": 47,
     "cca2": "MG",
-    "cca3": "MDG"
+    "cca3": "MDG",
+    "region": "Eastern Africa"
   },
   "MG": {
     "lat": -20,
     "lng": 47,
     "cca2": "MG",
-    "cca3": "MDG"
+    "cca3": "MDG",
+    "region": "Eastern Africa"
   },
   "MDG": {
     "lat": -20,
     "lng": 47,
     "cca2": "MG",
-    "cca3": "MDG"
+    "cca3": "MDG",
+    "region": "Eastern Africa"
   },
   "Maldives": {
     "lat": 3.25,
     "lng": 73,
     "cca2": "MV",
-    "cca3": "MDV"
+    "cca3": "MDV",
+    "region": "Southern Asia"
   },
   "MV": {
     "lat": 3.25,
     "lng": 73,
     "cca2": "MV",
-    "cca3": "MDV"
+    "cca3": "MDV",
+    "region": "Southern Asia"
   },
   "MDV": {
     "lat": 3.25,
     "lng": 73,
     "cca2": "MV",
-    "cca3": "MDV"
+    "cca3": "MDV",
+    "region": "Southern Asia"
   },
   "Mexico": {
     "lat": 23,
     "lng": -102,
     "cca2": "MX",
-    "cca3": "MEX"
+    "cca3": "MEX",
+    "region": "North America"
   },
   "MX": {
     "lat": 23,
     "lng": -102,
     "cca2": "MX",
-    "cca3": "MEX"
+    "cca3": "MEX",
+    "region": "North America"
   },
   "MEX": {
     "lat": 23,
     "lng": -102,
     "cca2": "MX",
-    "cca3": "MEX"
+    "cca3": "MEX",
+    "region": "North America"
   },
   "Marshall Islands": {
     "lat": 9,
     "lng": 168,
     "cca2": "MH",
-    "cca3": "MHL"
+    "cca3": "MHL",
+    "region": "Micronesia"
   },
   "MH": {
     "lat": 9,
     "lng": 168,
     "cca2": "MH",
-    "cca3": "MHL"
+    "cca3": "MHL",
+    "region": "Micronesia"
   },
   "MHL": {
     "lat": 9,
     "lng": 168,
     "cca2": "MH",
-    "cca3": "MHL"
+    "cca3": "MHL",
+    "region": "Micronesia"
   },
   "North Macedonia": {
     "lat": 41.83333333,
     "lng": 22,
     "cca2": "MK",
-    "cca3": "MKD"
+    "cca3": "MKD",
+    "region": "Southeast Europe"
   },
   "MK": {
     "lat": 41.83333333,
     "lng": 22,
     "cca2": "MK",
-    "cca3": "MKD"
+    "cca3": "MKD",
+    "region": "Southeast Europe"
   },
   "MKD": {
     "lat": 41.83333333,
     "lng": 22,
     "cca2": "MK",
-    "cca3": "MKD"
+    "cca3": "MKD",
+    "region": "Southeast Europe"
   },
   "Mali": {
     "lat": 17,
     "lng": -4,
     "cca2": "ML",
-    "cca3": "MLI"
+    "cca3": "MLI",
+    "region": "Western Africa"
   },
   "ML": {
     "lat": 17,
     "lng": -4,
     "cca2": "ML",
-    "cca3": "MLI"
+    "cca3": "MLI",
+    "region": "Western Africa"
   },
   "MLI": {
     "lat": 17,
     "lng": -4,
     "cca2": "ML",
-    "cca3": "MLI"
+    "cca3": "MLI",
+    "region": "Western Africa"
   },
   "Malta": {
     "lat": 35.83333333,
     "lng": 14.58333333,
     "cca2": "MT",
-    "cca3": "MLT"
+    "cca3": "MLT",
+    "region": "Southern Europe"
   },
   "MT": {
     "lat": 35.83333333,
     "lng": 14.58333333,
     "cca2": "MT",
-    "cca3": "MLT"
+    "cca3": "MLT",
+    "region": "Southern Europe"
   },
   "MLT": {
     "lat": 35.83333333,
     "lng": 14.58333333,
     "cca2": "MT",
-    "cca3": "MLT"
+    "cca3": "MLT",
+    "region": "Southern Europe"
   },
   "Myanmar": {
     "lat": 22,
     "lng": 98,
     "cca2": "MM",
-    "cca3": "MMR"
+    "cca3": "MMR",
+    "region": "South-Eastern Asia"
   },
   "MM": {
     "lat": 22,
     "lng": 98,
     "cca2": "MM",
-    "cca3": "MMR"
+    "cca3": "MMR",
+    "region": "South-Eastern Asia"
   },
   "MMR": {
     "lat": 22,
     "lng": 98,
     "cca2": "MM",
-    "cca3": "MMR"
+    "cca3": "MMR",
+    "region": "South-Eastern Asia"
   },
   "Montenegro": {
     "lat": 42.5,
     "lng": 19.3,
     "cca2": "ME",
-    "cca3": "MNE"
+    "cca3": "MNE",
+    "region": "Southeast Europe"
   },
   "ME": {
     "lat": 42.5,
     "lng": 19.3,
     "cca2": "ME",
-    "cca3": "MNE"
+    "cca3": "MNE",
+    "region": "Southeast Europe"
   },
   "MNE": {
     "lat": 42.5,
     "lng": 19.3,
     "cca2": "ME",
-    "cca3": "MNE"
+    "cca3": "MNE",
+    "region": "Southeast Europe"
   },
   "Mongolia": {
     "lat": 46,
     "lng": 105,
     "cca2": "MN",
-    "cca3": "MNG"
+    "cca3": "MNG",
+    "region": "Eastern Asia"
   },
   "MN": {
     "lat": 46,
     "lng": 105,
     "cca2": "MN",
-    "cca3": "MNG"
+    "cca3": "MNG",
+    "region": "Eastern Asia"
   },
   "MNG": {
     "lat": 46,
     "lng": 105,
     "cca2": "MN",
-    "cca3": "MNG"
+    "cca3": "MNG",
+    "region": "Eastern Asia"
   },
   "Northern Mariana Islands": {
     "lat": 15.2,
     "lng": 145.75,
     "cca2": "MP",
-    "cca3": "MNP"
+    "cca3": "MNP",
+    "region": "Micronesia"
   },
   "MP": {
     "lat": 15.2,
     "lng": 145.75,
     "cca2": "MP",
-    "cca3": "MNP"
+    "cca3": "MNP",
+    "region": "Micronesia"
   },
   "MNP": {
     "lat": 15.2,
     "lng": 145.75,
     "cca2": "MP",
-    "cca3": "MNP"
+    "cca3": "MNP",
+    "region": "Micronesia"
   },
   "Mozambique": {
     "lat": -18.25,
     "lng": 35,
     "cca2": "MZ",
-    "cca3": "MOZ"
+    "cca3": "MOZ",
+    "region": "Eastern Africa"
   },
   "MZ": {
     "lat": -18.25,
     "lng": 35,
     "cca2": "MZ",
-    "cca3": "MOZ"
+    "cca3": "MOZ",
+    "region": "Eastern Africa"
   },
   "MOZ": {
     "lat": -18.25,
     "lng": 35,
     "cca2": "MZ",
-    "cca3": "MOZ"
+    "cca3": "MOZ",
+    "region": "Eastern Africa"
   },
   "Mauritania": {
     "lat": 20,
     "lng": -12,
     "cca2": "MR",
-    "cca3": "MRT"
+    "cca3": "MRT",
+    "region": "Western Africa"
   },
   "MR": {
     "lat": 20,
     "lng": -12,
     "cca2": "MR",
-    "cca3": "MRT"
+    "cca3": "MRT",
+    "region": "Western Africa"
   },
   "MRT": {
     "lat": 20,
     "lng": -12,
     "cca2": "MR",
-    "cca3": "MRT"
+    "cca3": "MRT",
+    "region": "Western Africa"
   },
   "Montserrat": {
     "lat": 16.75,
     "lng": -62.2,
     "cca2": "MS",
-    "cca3": "MSR"
+    "cca3": "MSR",
+    "region": "Caribbean"
   },
   "MS": {
     "lat": 16.75,
     "lng": -62.2,
     "cca2": "MS",
-    "cca3": "MSR"
+    "cca3": "MSR",
+    "region": "Caribbean"
   },
   "MSR": {
     "lat": 16.75,
     "lng": -62.2,
     "cca2": "MS",
-    "cca3": "MSR"
+    "cca3": "MSR",
+    "region": "Caribbean"
   },
   "Martinique": {
     "lat": 14.666667,
     "lng": -61,
     "cca2": "MQ",
-    "cca3": "MTQ"
+    "cca3": "MTQ",
+    "region": "Caribbean"
   },
   "MQ": {
     "lat": 14.666667,
     "lng": -61,
     "cca2": "MQ",
-    "cca3": "MTQ"
+    "cca3": "MTQ",
+    "region": "Caribbean"
   },
   "MTQ": {
     "lat": 14.666667,
     "lng": -61,
     "cca2": "MQ",
-    "cca3": "MTQ"
+    "cca3": "MTQ",
+    "region": "Caribbean"
   },
   "Mauritius": {
     "lat": -20.28333333,
     "lng": 57.55,
     "cca2": "MU",
-    "cca3": "MUS"
+    "cca3": "MUS",
+    "region": "Eastern Africa"
   },
   "MU": {
     "lat": -20.28333333,
     "lng": 57.55,
     "cca2": "MU",
-    "cca3": "MUS"
+    "cca3": "MUS",
+    "region": "Eastern Africa"
   },
   "MUS": {
     "lat": -20.28333333,
     "lng": 57.55,
     "cca2": "MU",
-    "cca3": "MUS"
+    "cca3": "MUS",
+    "region": "Eastern Africa"
   },
   "Malawi": {
     "lat": -13.5,
     "lng": 34,
     "cca2": "MW",
-    "cca3": "MWI"
+    "cca3": "MWI",
+    "region": "Eastern Africa"
   },
   "MW": {
     "lat": -13.5,
     "lng": 34,
     "cca2": "MW",
-    "cca3": "MWI"
+    "cca3": "MWI",
+    "region": "Eastern Africa"
   },
   "MWI": {
     "lat": -13.5,
     "lng": 34,
     "cca2": "MW",
-    "cca3": "MWI"
+    "cca3": "MWI",
+    "region": "Eastern Africa"
   },
   "Malaysia": {
     "lat": 2.5,
     "lng": 112.5,
     "cca2": "MY",
-    "cca3": "MYS"
+    "cca3": "MYS",
+    "region": "South-Eastern Asia"
   },
   "MY": {
     "lat": 2.5,
     "lng": 112.5,
     "cca2": "MY",
-    "cca3": "MYS"
+    "cca3": "MYS",
+    "region": "South-Eastern Asia"
   },
   "MYS": {
     "lat": 2.5,
     "lng": 112.5,
     "cca2": "MY",
-    "cca3": "MYS"
+    "cca3": "MYS",
+    "region": "South-Eastern Asia"
   },
   "Mayotte": {
     "lat": -12.83333333,
     "lng": 45.16666666,
     "cca2": "YT",
-    "cca3": "MYT"
+    "cca3": "MYT",
+    "region": "Eastern Africa"
   },
   "YT": {
     "lat": -12.83333333,
     "lng": 45.16666666,
     "cca2": "YT",
-    "cca3": "MYT"
+    "cca3": "MYT",
+    "region": "Eastern Africa"
   },
   "MYT": {
     "lat": -12.83333333,
     "lng": 45.16666666,
     "cca2": "YT",
-    "cca3": "MYT"
+    "cca3": "MYT",
+    "region": "Eastern Africa"
   },
   "Namibia": {
     "lat": -22,
     "lng": 17,
     "cca2": "NA",
-    "cca3": "NAM"
+    "cca3": "NAM",
+    "region": "Southern Africa"
   },
   "NA": {
     "lat": -22,
     "lng": 17,
     "cca2": "NA",
-    "cca3": "NAM"
+    "cca3": "NAM",
+    "region": "Southern Africa"
   },
   "NAM": {
     "lat": -22,
     "lng": 17,
     "cca2": "NA",
-    "cca3": "NAM"
+    "cca3": "NAM",
+    "region": "Southern Africa"
   },
   "New Caledonia": {
     "lat": -21.5,
     "lng": 165.5,
     "cca2": "NC",
-    "cca3": "NCL"
+    "cca3": "NCL",
+    "region": "Melanesia"
   },
   "NC": {
     "lat": -21.5,
     "lng": 165.5,
     "cca2": "NC",
-    "cca3": "NCL"
+    "cca3": "NCL",
+    "region": "Melanesia"
   },
   "NCL": {
     "lat": -21.5,
     "lng": 165.5,
     "cca2": "NC",
-    "cca3": "NCL"
+    "cca3": "NCL",
+    "region": "Melanesia"
   },
   "Niger": {
     "lat": 16,
     "lng": 8,
     "cca2": "NE",
-    "cca3": "NER"
+    "cca3": "NER",
+    "region": "Western Africa"
   },
   "NE": {
     "lat": 16,
     "lng": 8,
     "cca2": "NE",
-    "cca3": "NER"
+    "cca3": "NER",
+    "region": "Western Africa"
   },
   "NER": {
     "lat": 16,
     "lng": 8,
     "cca2": "NE",
-    "cca3": "NER"
+    "cca3": "NER",
+    "region": "Western Africa"
   },
   "Norfolk Island": {
     "lat": -29.03333333,
     "lng": 167.95,
     "cca2": "NF",
-    "cca3": "NFK"
+    "cca3": "NFK",
+    "region": "Australia and New Zealand"
   },
   "NF": {
     "lat": -29.03333333,
     "lng": 167.95,
     "cca2": "NF",
-    "cca3": "NFK"
+    "cca3": "NFK",
+    "region": "Australia and New Zealand"
   },
   "NFK": {
     "lat": -29.03333333,
     "lng": 167.95,
     "cca2": "NF",
-    "cca3": "NFK"
+    "cca3": "NFK",
+    "region": "Australia and New Zealand"
   },
   "Nigeria": {
     "lat": 10,
     "lng": 8,
     "cca2": "NG",
-    "cca3": "NGA"
+    "cca3": "NGA",
+    "region": "Western Africa"
   },
   "NG": {
     "lat": 10,
     "lng": 8,
     "cca2": "NG",
-    "cca3": "NGA"
+    "cca3": "NGA",
+    "region": "Western Africa"
   },
   "NGA": {
     "lat": 10,
     "lng": 8,
     "cca2": "NG",
-    "cca3": "NGA"
+    "cca3": "NGA",
+    "region": "Western Africa"
   },
   "Nicaragua": {
     "lat": 13,
     "lng": -85,
     "cca2": "NI",
-    "cca3": "NIC"
+    "cca3": "NIC",
+    "region": "Central America"
   },
   "NI": {
     "lat": 13,
     "lng": -85,
     "cca2": "NI",
-    "cca3": "NIC"
+    "cca3": "NIC",
+    "region": "Central America"
   },
   "NIC": {
     "lat": 13,
     "lng": -85,
     "cca2": "NI",
-    "cca3": "NIC"
+    "cca3": "NIC",
+    "region": "Central America"
   },
   "Niue": {
     "lat": -19.03333333,
     "lng": -169.86666666,
     "cca2": "NU",
-    "cca3": "NIU"
+    "cca3": "NIU",
+    "region": "Polynesia"
   },
   "NU": {
     "lat": -19.03333333,
     "lng": -169.86666666,
     "cca2": "NU",
-    "cca3": "NIU"
+    "cca3": "NIU",
+    "region": "Polynesia"
   },
   "NIU": {
     "lat": -19.03333333,
     "lng": -169.86666666,
     "cca2": "NU",
-    "cca3": "NIU"
+    "cca3": "NIU",
+    "region": "Polynesia"
   },
   "Netherlands": {
     "lat": 52.5,
     "lng": 5.75,
     "cca2": "NL",
-    "cca3": "NLD"
+    "cca3": "NLD",
+    "region": "Western Europe"
   },
   "NL": {
     "lat": 52.5,
     "lng": 5.75,
     "cca2": "NL",
-    "cca3": "NLD"
+    "cca3": "NLD",
+    "region": "Western Europe"
   },
   "NLD": {
     "lat": 52.5,
     "lng": 5.75,
     "cca2": "NL",
-    "cca3": "NLD"
+    "cca3": "NLD",
+    "region": "Western Europe"
   },
   "Norway": {
     "lat": 62,
     "lng": 10,
     "cca2": "NO",
-    "cca3": "NOR"
+    "cca3": "NOR",
+    "region": "Northern Europe"
   },
   "NO": {
     "lat": 62,
     "lng": 10,
     "cca2": "NO",
-    "cca3": "NOR"
+    "cca3": "NOR",
+    "region": "Northern Europe"
   },
   "NOR": {
     "lat": 62,
     "lng": 10,
     "cca2": "NO",
-    "cca3": "NOR"
+    "cca3": "NOR",
+    "region": "Northern Europe"
   },
   "Nepal": {
     "lat": 28,
     "lng": 84,
     "cca2": "NP",
-    "cca3": "NPL"
+    "cca3": "NPL",
+    "region": "Southern Asia"
   },
   "NP": {
     "lat": 28,
     "lng": 84,
     "cca2": "NP",
-    "cca3": "NPL"
+    "cca3": "NPL",
+    "region": "Southern Asia"
   },
   "NPL": {
     "lat": 28,
     "lng": 84,
     "cca2": "NP",
-    "cca3": "NPL"
+    "cca3": "NPL",
+    "region": "Southern Asia"
   },
   "Nauru": {
     "lat": -0.53333333,
     "lng": 166.91666666,
     "cca2": "NR",
-    "cca3": "NRU"
+    "cca3": "NRU",
+    "region": "Micronesia"
   },
   "NR": {
     "lat": -0.53333333,
     "lng": 166.91666666,
     "cca2": "NR",
-    "cca3": "NRU"
+    "cca3": "NRU",
+    "region": "Micronesia"
   },
   "NRU": {
     "lat": -0.53333333,
     "lng": 166.91666666,
     "cca2": "NR",
-    "cca3": "NRU"
+    "cca3": "NRU",
+    "region": "Micronesia"
   },
   "New Zealand": {
     "lat": -41,
     "lng": 174,
     "cca2": "NZ",
-    "cca3": "NZL"
+    "cca3": "NZL",
+    "region": "Australia and New Zealand"
   },
   "NZ": {
     "lat": -41,
     "lng": 174,
     "cca2": "NZ",
-    "cca3": "NZL"
+    "cca3": "NZL",
+    "region": "Australia and New Zealand"
   },
   "NZL": {
     "lat": -41,
     "lng": 174,
     "cca2": "NZ",
-    "cca3": "NZL"
+    "cca3": "NZL",
+    "region": "Australia and New Zealand"
   },
   "Oman": {
     "lat": 21,
     "lng": 57,
     "cca2": "OM",
-    "cca3": "OMN"
+    "cca3": "OMN",
+    "region": "Western Asia"
   },
   "OM": {
     "lat": 21,
     "lng": 57,
     "cca2": "OM",
-    "cca3": "OMN"
+    "cca3": "OMN",
+    "region": "Western Asia"
   },
   "OMN": {
     "lat": 21,
     "lng": 57,
     "cca2": "OM",
-    "cca3": "OMN"
+    "cca3": "OMN",
+    "region": "Western Asia"
   },
   "Pakistan": {
     "lat": 30,
     "lng": 70,
     "cca2": "PK",
-    "cca3": "PAK"
+    "cca3": "PAK",
+    "region": "Southern Asia"
   },
   "PK": {
     "lat": 30,
     "lng": 70,
     "cca2": "PK",
-    "cca3": "PAK"
+    "cca3": "PAK",
+    "region": "Southern Asia"
   },
   "PAK": {
     "lat": 30,
     "lng": 70,
     "cca2": "PK",
-    "cca3": "PAK"
+    "cca3": "PAK",
+    "region": "Southern Asia"
   },
   "Panama": {
     "lat": 9,
     "lng": -80,
     "cca2": "PA",
-    "cca3": "PAN"
+    "cca3": "PAN",
+    "region": "Central America"
   },
   "PA": {
     "lat": 9,
     "lng": -80,
     "cca2": "PA",
-    "cca3": "PAN"
+    "cca3": "PAN",
+    "region": "Central America"
   },
   "PAN": {
     "lat": 9,
     "lng": -80,
     "cca2": "PA",
-    "cca3": "PAN"
+    "cca3": "PAN",
+    "region": "Central America"
   },
   "Pitcairn Islands": {
     "lat": -25.06666666,
     "lng": -130.1,
     "cca2": "PN",
-    "cca3": "PCN"
+    "cca3": "PCN",
+    "region": "Polynesia"
   },
   "PN": {
     "lat": -25.06666666,
     "lng": -130.1,
     "cca2": "PN",
-    "cca3": "PCN"
+    "cca3": "PCN",
+    "region": "Polynesia"
   },
   "PCN": {
     "lat": -25.06666666,
     "lng": -130.1,
     "cca2": "PN",
-    "cca3": "PCN"
+    "cca3": "PCN",
+    "region": "Polynesia"
   },
   "Peru": {
     "lat": -10,
     "lng": -76,
     "cca2": "PE",
-    "cca3": "PER"
+    "cca3": "PER",
+    "region": "South America"
   },
   "PE": {
     "lat": -10,
     "lng": -76,
     "cca2": "PE",
-    "cca3": "PER"
+    "cca3": "PER",
+    "region": "South America"
   },
   "PER": {
     "lat": -10,
     "lng": -76,
     "cca2": "PE",
-    "cca3": "PER"
+    "cca3": "PER",
+    "region": "South America"
   },
   "Philippines": {
     "lat": 13,
     "lng": 122,
     "cca2": "PH",
-    "cca3": "PHL"
+    "cca3": "PHL",
+    "region": "South-Eastern Asia"
   },
   "PH": {
     "lat": 13,
     "lng": 122,
     "cca2": "PH",
-    "cca3": "PHL"
+    "cca3": "PHL",
+    "region": "South-Eastern Asia"
   },
   "PHL": {
     "lat": 13,
     "lng": 122,
     "cca2": "PH",
-    "cca3": "PHL"
+    "cca3": "PHL",
+    "region": "South-Eastern Asia"
   },
   "Palau": {
     "lat": 7.5,
     "lng": 134.5,
     "cca2": "PW",
-    "cca3": "PLW"
+    "cca3": "PLW",
+    "region": "Micronesia"
   },
   "PW": {
     "lat": 7.5,
     "lng": 134.5,
     "cca2": "PW",
-    "cca3": "PLW"
+    "cca3": "PLW",
+    "region": "Micronesia"
   },
   "PLW": {
     "lat": 7.5,
     "lng": 134.5,
     "cca2": "PW",
-    "cca3": "PLW"
+    "cca3": "PLW",
+    "region": "Micronesia"
   },
   "Papua New Guinea": {
     "lat": -6,
     "lng": 147,
     "cca2": "PG",
-    "cca3": "PNG"
+    "cca3": "PNG",
+    "region": "Melanesia"
   },
   "PG": {
     "lat": -6,
     "lng": 147,
     "cca2": "PG",
-    "cca3": "PNG"
+    "cca3": "PNG",
+    "region": "Melanesia"
   },
   "PNG": {
     "lat": -6,
     "lng": 147,
     "cca2": "PG",
-    "cca3": "PNG"
+    "cca3": "PNG",
+    "region": "Melanesia"
   },
   "Poland": {
     "lat": 52,
     "lng": 20,
     "cca2": "PL",
-    "cca3": "POL"
+    "cca3": "POL",
+    "region": "Central Europe"
   },
   "PL": {
     "lat": 52,
     "lng": 20,
     "cca2": "PL",
-    "cca3": "POL"
+    "cca3": "POL",
+    "region": "Central Europe"
   },
   "POL": {
     "lat": 52,
     "lng": 20,
     "cca2": "PL",
-    "cca3": "POL"
+    "cca3": "POL",
+    "region": "Central Europe"
   },
   "Puerto Rico": {
     "lat": 18.25,
     "lng": -66.5,
     "cca2": "PR",
-    "cca3": "PRI"
+    "cca3": "PRI",
+    "region": "Caribbean"
   },
   "PR": {
     "lat": 18.25,
     "lng": -66.5,
     "cca2": "PR",
-    "cca3": "PRI"
+    "cca3": "PRI",
+    "region": "Caribbean"
   },
   "PRI": {
     "lat": 18.25,
     "lng": -66.5,
     "cca2": "PR",
-    "cca3": "PRI"
+    "cca3": "PRI",
+    "region": "Caribbean"
   },
   "North Korea": {
     "lat": 40,
     "lng": 127,
     "cca2": "KP",
-    "cca3": "PRK"
+    "cca3": "PRK",
+    "region": "Eastern Asia"
   },
   "KP": {
     "lat": 40,
     "lng": 127,
     "cca2": "KP",
-    "cca3": "PRK"
+    "cca3": "PRK",
+    "region": "Eastern Asia"
   },
   "PRK": {
     "lat": 40,
     "lng": 127,
     "cca2": "KP",
-    "cca3": "PRK"
+    "cca3": "PRK",
+    "region": "Eastern Asia"
   },
   "Portugal": {
     "lat": 39.5,
     "lng": -8,
     "cca2": "PT",
-    "cca3": "PRT"
+    "cca3": "PRT",
+    "region": "Southern Europe"
   },
   "PT": {
     "lat": 39.5,
     "lng": -8,
     "cca2": "PT",
-    "cca3": "PRT"
+    "cca3": "PRT",
+    "region": "Southern Europe"
   },
   "PRT": {
     "lat": 39.5,
     "lng": -8,
     "cca2": "PT",
-    "cca3": "PRT"
+    "cca3": "PRT",
+    "region": "Southern Europe"
   },
   "Paraguay": {
     "lat": -23,
     "lng": -58,
     "cca2": "PY",
-    "cca3": "PRY"
+    "cca3": "PRY",
+    "region": "South America"
   },
   "PY": {
     "lat": -23,
     "lng": -58,
     "cca2": "PY",
-    "cca3": "PRY"
+    "cca3": "PRY",
+    "region": "South America"
   },
   "PRY": {
     "lat": -23,
     "lng": -58,
     "cca2": "PY",
-    "cca3": "PRY"
+    "cca3": "PRY",
+    "region": "South America"
   },
   "Palestine": {
     "lat": 31.9,
     "lng": 35.2,
     "cca2": "PS",
-    "cca3": "PSE"
+    "cca3": "PSE",
+    "region": "Western Asia"
   },
   "PS": {
     "lat": 31.9,
     "lng": 35.2,
     "cca2": "PS",
-    "cca3": "PSE"
+    "cca3": "PSE",
+    "region": "Western Asia"
   },
   "PSE": {
     "lat": 31.9,
     "lng": 35.2,
     "cca2": "PS",
-    "cca3": "PSE"
+    "cca3": "PSE",
+    "region": "Western Asia"
   },
   "French Polynesia": {
     "lat": -15,
     "lng": -140,
     "cca2": "PF",
-    "cca3": "PYF"
+    "cca3": "PYF",
+    "region": "Polynesia"
   },
   "PF": {
     "lat": -15,
     "lng": -140,
     "cca2": "PF",
-    "cca3": "PYF"
+    "cca3": "PYF",
+    "region": "Polynesia"
   },
   "PYF": {
     "lat": -15,
     "lng": -140,
     "cca2": "PF",
-    "cca3": "PYF"
+    "cca3": "PYF",
+    "region": "Polynesia"
   },
   "Qatar": {
     "lat": 25.5,
     "lng": 51.25,
     "cca2": "QA",
-    "cca3": "QAT"
+    "cca3": "QAT",
+    "region": "Western Asia"
   },
   "QA": {
     "lat": 25.5,
     "lng": 51.25,
     "cca2": "QA",
-    "cca3": "QAT"
+    "cca3": "QAT",
+    "region": "Western Asia"
   },
   "QAT": {
     "lat": 25.5,
     "lng": 51.25,
     "cca2": "QA",
-    "cca3": "QAT"
+    "cca3": "QAT",
+    "region": "Western Asia"
   },
   "Réunion": {
     "lat": -21.15,
     "lng": 55.5,
     "cca2": "RE",
-    "cca3": "REU"
+    "cca3": "REU",
+    "region": "Eastern Africa"
   },
   "RE": {
     "lat": -21.15,
     "lng": 55.5,
     "cca2": "RE",
-    "cca3": "REU"
+    "cca3": "REU",
+    "region": "Eastern Africa"
   },
   "REU": {
     "lat": -21.15,
     "lng": 55.5,
     "cca2": "RE",
-    "cca3": "REU"
+    "cca3": "REU",
+    "region": "Eastern Africa"
   },
   "Romania": {
     "lat": 46,
     "lng": 25,
     "cca2": "RO",
-    "cca3": "ROU"
+    "cca3": "ROU",
+    "region": "Southeast Europe"
   },
   "RO": {
     "lat": 46,
     "lng": 25,
     "cca2": "RO",
-    "cca3": "ROU"
+    "cca3": "ROU",
+    "region": "Southeast Europe"
   },
   "ROU": {
     "lat": 46,
     "lng": 25,
     "cca2": "RO",
-    "cca3": "ROU"
+    "cca3": "ROU",
+    "region": "Southeast Europe"
   },
   "Russia": {
     "lat": 60,
     "lng": 100,
     "cca2": "RU",
-    "cca3": "RUS"
+    "cca3": "RUS",
+    "region": "Eastern Europe"
   },
   "RU": {
     "lat": 60,
     "lng": 100,
     "cca2": "RU",
-    "cca3": "RUS"
+    "cca3": "RUS",
+    "region": "Eastern Europe"
   },
   "RUS": {
     "lat": 60,
     "lng": 100,
     "cca2": "RU",
-    "cca3": "RUS"
+    "cca3": "RUS",
+    "region": "Eastern Europe"
   },
   "Rwanda": {
     "lat": -2,
     "lng": 30,
     "cca2": "RW",
-    "cca3": "RWA"
+    "cca3": "RWA",
+    "region": "Eastern Africa"
   },
   "RW": {
     "lat": -2,
     "lng": 30,
     "cca2": "RW",
-    "cca3": "RWA"
+    "cca3": "RWA",
+    "region": "Eastern Africa"
   },
   "RWA": {
     "lat": -2,
     "lng": 30,
     "cca2": "RW",
-    "cca3": "RWA"
+    "cca3": "RWA",
+    "region": "Eastern Africa"
   },
   "Saudi Arabia": {
     "lat": 25,
     "lng": 45,
     "cca2": "SA",
-    "cca3": "SAU"
+    "cca3": "SAU",
+    "region": "Western Asia"
   },
   "SA": {
     "lat": 25,
     "lng": 45,
     "cca2": "SA",
-    "cca3": "SAU"
+    "cca3": "SAU",
+    "region": "Western Asia"
   },
   "SAU": {
     "lat": 25,
     "lng": 45,
     "cca2": "SA",
-    "cca3": "SAU"
+    "cca3": "SAU",
+    "region": "Western Asia"
   },
   "Sudan": {
     "lat": 15,
     "lng": 30,
     "cca2": "SD",
-    "cca3": "SDN"
+    "cca3": "SDN",
+    "region": "Northern Africa"
   },
   "SD": {
     "lat": 15,
     "lng": 30,
     "cca2": "SD",
-    "cca3": "SDN"
+    "cca3": "SDN",
+    "region": "Northern Africa"
   },
   "SDN": {
     "lat": 15,
     "lng": 30,
     "cca2": "SD",
-    "cca3": "SDN"
+    "cca3": "SDN",
+    "region": "Northern Africa"
   },
   "Senegal": {
     "lat": 14,
     "lng": -14,
     "cca2": "SN",
-    "cca3": "SEN"
+    "cca3": "SEN",
+    "region": "Western Africa"
   },
   "SN": {
     "lat": 14,
     "lng": -14,
     "cca2": "SN",
-    "cca3": "SEN"
+    "cca3": "SEN",
+    "region": "Western Africa"
   },
   "SEN": {
     "lat": 14,
     "lng": -14,
     "cca2": "SN",
-    "cca3": "SEN"
+    "cca3": "SEN",
+    "region": "Western Africa"
   },
   "Singapore": {
     "lat": 1.36666666,
     "lng": 103.8,
     "cca2": "SG",
-    "cca3": "SGP"
+    "cca3": "SGP",
+    "region": "South-Eastern Asia"
   },
   "SG": {
     "lat": 1.36666666,
     "lng": 103.8,
     "cca2": "SG",
-    "cca3": "SGP"
+    "cca3": "SGP",
+    "region": "South-Eastern Asia"
   },
   "SGP": {
     "lat": 1.36666666,
     "lng": 103.8,
     "cca2": "SG",
-    "cca3": "SGP"
+    "cca3": "SGP",
+    "region": "South-Eastern Asia"
   },
   "South Georgia": {
     "lat": -54.5,
     "lng": -37,
     "cca2": "GS",
-    "cca3": "SGS"
+    "cca3": "SGS",
+    "region": "Antarctic"
   },
   "GS": {
     "lat": -54.5,
     "lng": -37,
     "cca2": "GS",
-    "cca3": "SGS"
+    "cca3": "SGS",
+    "region": "Antarctic"
   },
   "SGS": {
     "lat": -54.5,
     "lng": -37,
     "cca2": "GS",
-    "cca3": "SGS"
+    "cca3": "SGS",
+    "region": "Antarctic"
   },
   "Svalbard and Jan Mayen": {
     "lat": 78,
     "lng": 20,
     "cca2": "SJ",
-    "cca3": "SJM"
+    "cca3": "SJM",
+    "region": "Northern Europe"
   },
   "SJ": {
     "lat": 78,
     "lng": 20,
     "cca2": "SJ",
-    "cca3": "SJM"
+    "cca3": "SJM",
+    "region": "Northern Europe"
   },
   "SJM": {
     "lat": 78,
     "lng": 20,
     "cca2": "SJ",
-    "cca3": "SJM"
+    "cca3": "SJM",
+    "region": "Northern Europe"
   },
   "Solomon Islands": {
     "lat": -8,
     "lng": 159,
     "cca2": "SB",
-    "cca3": "SLB"
+    "cca3": "SLB",
+    "region": "Melanesia"
   },
   "SB": {
     "lat": -8,
     "lng": 159,
     "cca2": "SB",
-    "cca3": "SLB"
+    "cca3": "SLB",
+    "region": "Melanesia"
   },
   "SLB": {
     "lat": -8,
     "lng": 159,
     "cca2": "SB",
-    "cca3": "SLB"
+    "cca3": "SLB",
+    "region": "Melanesia"
   },
   "Sierra Leone": {
     "lat": 8.5,
     "lng": -11.5,
     "cca2": "SL",
-    "cca3": "SLE"
+    "cca3": "SLE",
+    "region": "Western Africa"
   },
   "SL": {
     "lat": 8.5,
     "lng": -11.5,
     "cca2": "SL",
-    "cca3": "SLE"
+    "cca3": "SLE",
+    "region": "Western Africa"
   },
   "SLE": {
     "lat": 8.5,
     "lng": -11.5,
     "cca2": "SL",
-    "cca3": "SLE"
+    "cca3": "SLE",
+    "region": "Western Africa"
   },
   "El Salvador": {
     "lat": 13.83333333,
     "lng": -88.91666666,
     "cca2": "SV",
-    "cca3": "SLV"
+    "cca3": "SLV",
+    "region": "Central America"
   },
   "SV": {
     "lat": 13.83333333,
     "lng": -88.91666666,
     "cca2": "SV",
-    "cca3": "SLV"
+    "cca3": "SLV",
+    "region": "Central America"
   },
   "SLV": {
     "lat": 13.83333333,
     "lng": -88.91666666,
     "cca2": "SV",
-    "cca3": "SLV"
+    "cca3": "SLV",
+    "region": "Central America"
   },
   "San Marino": {
     "lat": 43.76666666,
     "lng": 12.41666666,
     "cca2": "SM",
-    "cca3": "SMR"
+    "cca3": "SMR",
+    "region": "Southern Europe"
   },
   "SM": {
     "lat": 43.76666666,
     "lng": 12.41666666,
     "cca2": "SM",
-    "cca3": "SMR"
+    "cca3": "SMR",
+    "region": "Southern Europe"
   },
   "SMR": {
     "lat": 43.76666666,
     "lng": 12.41666666,
     "cca2": "SM",
-    "cca3": "SMR"
+    "cca3": "SMR",
+    "region": "Southern Europe"
   },
   "Somalia": {
     "lat": 10,
     "lng": 49,
     "cca2": "SO",
-    "cca3": "SOM"
+    "cca3": "SOM",
+    "region": "Eastern Africa"
   },
   "SO": {
     "lat": 10,
     "lng": 49,
     "cca2": "SO",
-    "cca3": "SOM"
+    "cca3": "SOM",
+    "region": "Eastern Africa"
   },
   "SOM": {
     "lat": 10,
     "lng": 49,
     "cca2": "SO",
-    "cca3": "SOM"
+    "cca3": "SOM",
+    "region": "Eastern Africa"
   },
   "Saint Pierre and Miquelon": {
     "lat": 46.83333333,
     "lng": -56.33333333,
     "cca2": "PM",
-    "cca3": "SPM"
+    "cca3": "SPM",
+    "region": "North America"
   },
   "PM": {
     "lat": 46.83333333,
     "lng": -56.33333333,
     "cca2": "PM",
-    "cca3": "SPM"
+    "cca3": "SPM",
+    "region": "North America"
   },
   "SPM": {
     "lat": 46.83333333,
     "lng": -56.33333333,
     "cca2": "PM",
-    "cca3": "SPM"
+    "cca3": "SPM",
+    "region": "North America"
   },
   "Serbia": {
     "lat": 44,
     "lng": 21,
     "cca2": "RS",
-    "cca3": "SRB"
+    "cca3": "SRB",
+    "region": "Southeast Europe"
   },
   "RS": {
     "lat": 44,
     "lng": 21,
     "cca2": "RS",
-    "cca3": "SRB"
+    "cca3": "SRB",
+    "region": "Southeast Europe"
   },
   "SRB": {
     "lat": 44,
     "lng": 21,
     "cca2": "RS",
-    "cca3": "SRB"
+    "cca3": "SRB",
+    "region": "Southeast Europe"
   },
   "South Sudan": {
     "lat": 7,
     "lng": 30,
     "cca2": "SS",
-    "cca3": "SSD"
+    "cca3": "SSD",
+    "region": "Middle Africa"
   },
   "SS": {
     "lat": 7,
     "lng": 30,
     "cca2": "SS",
-    "cca3": "SSD"
+    "cca3": "SSD",
+    "region": "Middle Africa"
   },
   "SSD": {
     "lat": 7,
     "lng": 30,
     "cca2": "SS",
-    "cca3": "SSD"
+    "cca3": "SSD",
+    "region": "Middle Africa"
   },
   "São Tomé and Príncipe": {
     "lat": 1,
     "lng": 7,
     "cca2": "ST",
-    "cca3": "STP"
+    "cca3": "STP",
+    "region": "Middle Africa"
   },
   "ST": {
     "lat": 1,
     "lng": 7,
     "cca2": "ST",
-    "cca3": "STP"
+    "cca3": "STP",
+    "region": "Middle Africa"
   },
   "STP": {
     "lat": 1,
     "lng": 7,
     "cca2": "ST",
-    "cca3": "STP"
+    "cca3": "STP",
+    "region": "Middle Africa"
   },
   "Suriname": {
     "lat": 4,
     "lng": -56,
     "cca2": "SR",
-    "cca3": "SUR"
+    "cca3": "SUR",
+    "region": "South America"
   },
   "SR": {
     "lat": 4,
     "lng": -56,
     "cca2": "SR",
-    "cca3": "SUR"
+    "cca3": "SUR",
+    "region": "South America"
   },
   "SUR": {
     "lat": 4,
     "lng": -56,
     "cca2": "SR",
-    "cca3": "SUR"
+    "cca3": "SUR",
+    "region": "South America"
   },
   "Slovakia": {
     "lat": 48.66666666,
     "lng": 19.5,
     "cca2": "SK",
-    "cca3": "SVK"
+    "cca3": "SVK",
+    "region": "Central Europe"
   },
   "SK": {
     "lat": 48.66666666,
     "lng": 19.5,
     "cca2": "SK",
-    "cca3": "SVK"
+    "cca3": "SVK",
+    "region": "Central Europe"
   },
   "SVK": {
     "lat": 48.66666666,
     "lng": 19.5,
     "cca2": "SK",
-    "cca3": "SVK"
+    "cca3": "SVK",
+    "region": "Central Europe"
   },
   "Slovenia": {
     "lat": 46.11666666,
     "lng": 14.81666666,
     "cca2": "SI",
-    "cca3": "SVN"
+    "cca3": "SVN",
+    "region": "Central Europe"
   },
   "SI": {
     "lat": 46.11666666,
     "lng": 14.81666666,
     "cca2": "SI",
-    "cca3": "SVN"
+    "cca3": "SVN",
+    "region": "Central Europe"
   },
   "SVN": {
     "lat": 46.11666666,
     "lng": 14.81666666,
     "cca2": "SI",
-    "cca3": "SVN"
+    "cca3": "SVN",
+    "region": "Central Europe"
   },
   "Sweden": {
     "lat": 62,
     "lng": 15,
     "cca2": "SE",
-    "cca3": "SWE"
+    "cca3": "SWE",
+    "region": "Northern Europe"
   },
   "SE": {
     "lat": 62,
     "lng": 15,
     "cca2": "SE",
-    "cca3": "SWE"
+    "cca3": "SWE",
+    "region": "Northern Europe"
   },
   "SWE": {
     "lat": 62,
     "lng": 15,
     "cca2": "SE",
-    "cca3": "SWE"
+    "cca3": "SWE",
+    "region": "Northern Europe"
   },
   "Eswatini": {
     "lat": -26.5,
     "lng": 31.5,
     "cca2": "SZ",
-    "cca3": "SWZ"
+    "cca3": "SWZ",
+    "region": "Southern Africa"
   },
   "SZ": {
     "lat": -26.5,
     "lng": 31.5,
     "cca2": "SZ",
-    "cca3": "SWZ"
+    "cca3": "SWZ",
+    "region": "Southern Africa"
   },
   "SWZ": {
     "lat": -26.5,
     "lng": 31.5,
     "cca2": "SZ",
-    "cca3": "SWZ"
+    "cca3": "SWZ",
+    "region": "Southern Africa"
   },
   "Sint Maarten": {
     "lat": 18.033333,
     "lng": -63.05,
     "cca2": "SX",
-    "cca3": "SXM"
+    "cca3": "SXM",
+    "region": "Caribbean"
   },
   "SX": {
     "lat": 18.033333,
     "lng": -63.05,
     "cca2": "SX",
-    "cca3": "SXM"
+    "cca3": "SXM",
+    "region": "Caribbean"
   },
   "SXM": {
     "lat": 18.033333,
     "lng": -63.05,
     "cca2": "SX",
-    "cca3": "SXM"
+    "cca3": "SXM",
+    "region": "Caribbean"
   },
   "Seychelles": {
     "lat": -4.58333333,
     "lng": 55.66666666,
     "cca2": "SC",
-    "cca3": "SYC"
+    "cca3": "SYC",
+    "region": "Eastern Africa"
   },
   "SC": {
     "lat": -4.58333333,
     "lng": 55.66666666,
     "cca2": "SC",
-    "cca3": "SYC"
+    "cca3": "SYC",
+    "region": "Eastern Africa"
   },
   "SYC": {
     "lat": -4.58333333,
     "lng": 55.66666666,
     "cca2": "SC",
-    "cca3": "SYC"
+    "cca3": "SYC",
+    "region": "Eastern Africa"
   },
   "Syria": {
     "lat": 35,
     "lng": 38,
     "cca2": "SY",
-    "cca3": "SYR"
+    "cca3": "SYR",
+    "region": "Western Asia"
   },
   "SY": {
     "lat": 35,
     "lng": 38,
     "cca2": "SY",
-    "cca3": "SYR"
+    "cca3": "SYR",
+    "region": "Western Asia"
   },
   "SYR": {
     "lat": 35,
     "lng": 38,
     "cca2": "SY",
-    "cca3": "SYR"
+    "cca3": "SYR",
+    "region": "Western Asia"
   },
   "Turks and Caicos Islands": {
     "lat": 21.75,
     "lng": -71.58333333,
     "cca2": "TC",
-    "cca3": "TCA"
+    "cca3": "TCA",
+    "region": "Caribbean"
   },
   "TC": {
     "lat": 21.75,
     "lng": -71.58333333,
     "cca2": "TC",
-    "cca3": "TCA"
+    "cca3": "TCA",
+    "region": "Caribbean"
   },
   "TCA": {
     "lat": 21.75,
     "lng": -71.58333333,
     "cca2": "TC",
-    "cca3": "TCA"
+    "cca3": "TCA",
+    "region": "Caribbean"
   },
   "Chad": {
     "lat": 15,
     "lng": 19,
     "cca2": "TD",
-    "cca3": "TCD"
+    "cca3": "TCD",
+    "region": "Middle Africa"
   },
   "TD": {
     "lat": 15,
     "lng": 19,
     "cca2": "TD",
-    "cca3": "TCD"
+    "cca3": "TCD",
+    "region": "Middle Africa"
   },
   "TCD": {
     "lat": 15,
     "lng": 19,
     "cca2": "TD",
-    "cca3": "TCD"
+    "cca3": "TCD",
+    "region": "Middle Africa"
   },
   "Togo": {
     "lat": 8,
     "lng": 1.16666666,
     "cca2": "TG",
-    "cca3": "TGO"
+    "cca3": "TGO",
+    "region": "Western Africa"
   },
   "TG": {
     "lat": 8,
     "lng": 1.16666666,
     "cca2": "TG",
-    "cca3": "TGO"
+    "cca3": "TGO",
+    "region": "Western Africa"
   },
   "TGO": {
     "lat": 8,
     "lng": 1.16666666,
     "cca2": "TG",
-    "cca3": "TGO"
+    "cca3": "TGO",
+    "region": "Western Africa"
   },
   "Thailand": {
     "lat": 15,
     "lng": 100,
     "cca2": "TH",
-    "cca3": "THA"
+    "cca3": "THA",
+    "region": "South-Eastern Asia"
   },
   "TH": {
     "lat": 15,
     "lng": 100,
     "cca2": "TH",
-    "cca3": "THA"
+    "cca3": "THA",
+    "region": "South-Eastern Asia"
   },
   "THA": {
     "lat": 15,
     "lng": 100,
     "cca2": "TH",
-    "cca3": "THA"
+    "cca3": "THA",
+    "region": "South-Eastern Asia"
   },
   "Tajikistan": {
     "lat": 39,
     "lng": 71,
     "cca2": "TJ",
-    "cca3": "TJK"
+    "cca3": "TJK",
+    "region": "Central Asia"
   },
   "TJ": {
     "lat": 39,
     "lng": 71,
     "cca2": "TJ",
-    "cca3": "TJK"
+    "cca3": "TJK",
+    "region": "Central Asia"
   },
   "TJK": {
     "lat": 39,
     "lng": 71,
     "cca2": "TJ",
-    "cca3": "TJK"
+    "cca3": "TJK",
+    "region": "Central Asia"
   },
   "Tokelau": {
     "lat": -9,
     "lng": -172,
     "cca2": "TK",
-    "cca3": "TKL"
+    "cca3": "TKL",
+    "region": "Polynesia"
   },
   "TK": {
     "lat": -9,
     "lng": -172,
     "cca2": "TK",
-    "cca3": "TKL"
+    "cca3": "TKL",
+    "region": "Polynesia"
   },
   "TKL": {
     "lat": -9,
     "lng": -172,
     "cca2": "TK",
-    "cca3": "TKL"
+    "cca3": "TKL",
+    "region": "Polynesia"
   },
   "Turkmenistan": {
     "lat": 40,
     "lng": 60,
     "cca2": "TM",
-    "cca3": "TKM"
+    "cca3": "TKM",
+    "region": "Central Asia"
   },
   "TM": {
     "lat": 40,
     "lng": 60,
     "cca2": "TM",
-    "cca3": "TKM"
+    "cca3": "TKM",
+    "region": "Central Asia"
   },
   "TKM": {
     "lat": 40,
     "lng": 60,
     "cca2": "TM",
-    "cca3": "TKM"
+    "cca3": "TKM",
+    "region": "Central Asia"
   },
   "Timor-Leste": {
     "lat": -8.83333333,
     "lng": 125.91666666,
     "cca2": "TL",
-    "cca3": "TLS"
+    "cca3": "TLS",
+    "region": "South-Eastern Asia"
   },
   "TL": {
     "lat": -8.83333333,
     "lng": 125.91666666,
     "cca2": "TL",
-    "cca3": "TLS"
+    "cca3": "TLS",
+    "region": "South-Eastern Asia"
   },
   "TLS": {
     "lat": -8.83333333,
     "lng": 125.91666666,
     "cca2": "TL",
-    "cca3": "TLS"
+    "cca3": "TLS",
+    "region": "South-Eastern Asia"
   },
   "Tonga": {
     "lat": -20,
     "lng": -175,
     "cca2": "TO",
-    "cca3": "TON"
+    "cca3": "TON",
+    "region": "Polynesia"
   },
   "TO": {
     "lat": -20,
     "lng": -175,
     "cca2": "TO",
-    "cca3": "TON"
+    "cca3": "TON",
+    "region": "Polynesia"
   },
   "TON": {
     "lat": -20,
     "lng": -175,
     "cca2": "TO",
-    "cca3": "TON"
+    "cca3": "TON",
+    "region": "Polynesia"
   },
   "Trinidad and Tobago": {
     "lat": 11,
     "lng": -61,
     "cca2": "TT",
-    "cca3": "TTO"
+    "cca3": "TTO",
+    "region": "Caribbean"
   },
   "TT": {
     "lat": 11,
     "lng": -61,
     "cca2": "TT",
-    "cca3": "TTO"
+    "cca3": "TTO",
+    "region": "Caribbean"
   },
   "TTO": {
     "lat": 11,
     "lng": -61,
     "cca2": "TT",
-    "cca3": "TTO"
+    "cca3": "TTO",
+    "region": "Caribbean"
   },
   "Tunisia": {
     "lat": 34,
     "lng": 9,
     "cca2": "TN",
-    "cca3": "TUN"
+    "cca3": "TUN",
+    "region": "Northern Africa"
   },
   "TN": {
     "lat": 34,
     "lng": 9,
     "cca2": "TN",
-    "cca3": "TUN"
+    "cca3": "TUN",
+    "region": "Northern Africa"
   },
   "TUN": {
     "lat": 34,
     "lng": 9,
     "cca2": "TN",
-    "cca3": "TUN"
+    "cca3": "TUN",
+    "region": "Northern Africa"
   },
   "Türkiye": {
     "lat": 39,
     "lng": 35,
     "cca2": "TR",
-    "cca3": "TUR"
+    "cca3": "TUR",
+    "region": "Western Asia"
   },
   "TR": {
     "lat": 39,
     "lng": 35,
     "cca2": "TR",
-    "cca3": "TUR"
+    "cca3": "TUR",
+    "region": "Western Asia"
   },
   "TUR": {
     "lat": 39,
     "lng": 35,
     "cca2": "TR",
-    "cca3": "TUR"
+    "cca3": "TUR",
+    "region": "Western Asia"
   },
   "Tuvalu": {
     "lat": -8,
     "lng": 178,
     "cca2": "TV",
-    "cca3": "TUV"
+    "cca3": "TUV",
+    "region": "Polynesia"
   },
   "TV": {
     "lat": -8,
     "lng": 178,
     "cca2": "TV",
-    "cca3": "TUV"
+    "cca3": "TUV",
+    "region": "Polynesia"
   },
   "TUV": {
     "lat": -8,
     "lng": 178,
     "cca2": "TV",
-    "cca3": "TUV"
+    "cca3": "TUV",
+    "region": "Polynesia"
   },
   "Taiwan": {
     "lat": 23.5,
     "lng": 121,
     "cca2": "TW",
-    "cca3": "TWN"
+    "cca3": "TWN",
+    "region": "Eastern Asia"
   },
   "TW": {
     "lat": 23.5,
     "lng": 121,
     "cca2": "TW",
-    "cca3": "TWN"
+    "cca3": "TWN",
+    "region": "Eastern Asia"
   },
   "TWN": {
     "lat": 23.5,
     "lng": 121,
     "cca2": "TW",
-    "cca3": "TWN"
+    "cca3": "TWN",
+    "region": "Eastern Asia"
   },
   "Tanzania": {
     "lat": -6,
     "lng": 35,
     "cca2": "TZ",
-    "cca3": "TZA"
+    "cca3": "TZA",
+    "region": "Eastern Africa"
   },
   "TZ": {
     "lat": -6,
     "lng": 35,
     "cca2": "TZ",
-    "cca3": "TZA"
+    "cca3": "TZA",
+    "region": "Eastern Africa"
   },
   "TZA": {
     "lat": -6,
     "lng": 35,
     "cca2": "TZ",
-    "cca3": "TZA"
+    "cca3": "TZA",
+    "region": "Eastern Africa"
   },
   "Uganda": {
     "lat": 1,
     "lng": 32,
     "cca2": "UG",
-    "cca3": "UGA"
+    "cca3": "UGA",
+    "region": "Eastern Africa"
   },
   "UG": {
     "lat": 1,
     "lng": 32,
     "cca2": "UG",
-    "cca3": "UGA"
+    "cca3": "UGA",
+    "region": "Eastern Africa"
   },
   "UGA": {
     "lat": 1,
     "lng": 32,
     "cca2": "UG",
-    "cca3": "UGA"
+    "cca3": "UGA",
+    "region": "Eastern Africa"
   },
   "Ukraine": {
     "lat": 49,
     "lng": 32,
     "cca2": "UA",
-    "cca3": "UKR"
+    "cca3": "UKR",
+    "region": "Eastern Europe"
   },
   "UA": {
     "lat": 49,
     "lng": 32,
     "cca2": "UA",
-    "cca3": "UKR"
+    "cca3": "UKR",
+    "region": "Eastern Europe"
   },
   "UKR": {
     "lat": 49,
     "lng": 32,
     "cca2": "UA",
-    "cca3": "UKR"
+    "cca3": "UKR",
+    "region": "Eastern Europe"
   },
   "United States Minor Outlying Islands": {
     "lat": 19.3,
     "lng": 166.633333,
     "cca2": "UM",
-    "cca3": "UMI"
+    "cca3": "UMI",
+    "region": "North America"
   },
   "UM": {
     "lat": 19.3,
     "lng": 166.633333,
     "cca2": "UM",
-    "cca3": "UMI"
+    "cca3": "UMI",
+    "region": "North America"
   },
   "UMI": {
     "lat": 19.3,
     "lng": 166.633333,
     "cca2": "UM",
-    "cca3": "UMI"
+    "cca3": "UMI",
+    "region": "North America"
   },
   "Uruguay": {
     "lat": -33,
     "lng": -56,
     "cca2": "UY",
-    "cca3": "URY"
+    "cca3": "URY",
+    "region": "South America"
   },
   "UY": {
     "lat": -33,
     "lng": -56,
     "cca2": "UY",
-    "cca3": "URY"
+    "cca3": "URY",
+    "region": "South America"
   },
   "URY": {
     "lat": -33,
     "lng": -56,
     "cca2": "UY",
-    "cca3": "URY"
+    "cca3": "URY",
+    "region": "South America"
   },
   "United States": {
     "lat": 38,
     "lng": -97,
     "cca2": "US",
-    "cca3": "USA"
+    "cca3": "USA",
+    "region": "North America"
   },
   "US": {
     "lat": 38,
     "lng": -97,
     "cca2": "US",
-    "cca3": "USA"
+    "cca3": "USA",
+    "region": "North America"
   },
   "USA": {
     "lat": 38,
     "lng": -97,
     "cca2": "US",
-    "cca3": "USA"
+    "cca3": "USA",
+    "region": "North America"
   },
   "Uzbekistan": {
     "lat": 41,
     "lng": 64,
     "cca2": "UZ",
-    "cca3": "UZB"
+    "cca3": "UZB",
+    "region": "Central Asia"
   },
   "UZ": {
     "lat": 41,
     "lng": 64,
     "cca2": "UZ",
-    "cca3": "UZB"
+    "cca3": "UZB",
+    "region": "Central Asia"
   },
   "UZB": {
     "lat": 41,
     "lng": 64,
     "cca2": "UZ",
-    "cca3": "UZB"
+    "cca3": "UZB",
+    "region": "Central Asia"
   },
   "Vatican City": {
     "lat": 41.9,
     "lng": 12.45,
     "cca2": "VA",
-    "cca3": "VAT"
+    "cca3": "VAT",
+    "region": "Southern Europe"
   },
   "VA": {
     "lat": 41.9,
     "lng": 12.45,
     "cca2": "VA",
-    "cca3": "VAT"
+    "cca3": "VAT",
+    "region": "Southern Europe"
   },
   "VAT": {
     "lat": 41.9,
     "lng": 12.45,
     "cca2": "VA",
-    "cca3": "VAT"
+    "cca3": "VAT",
+    "region": "Southern Europe"
   },
   "Saint Vincent and the Grenadines": {
     "lat": 13.25,
     "lng": -61.2,
     "cca2": "VC",
-    "cca3": "VCT"
+    "cca3": "VCT",
+    "region": "Caribbean"
   },
   "VC": {
     "lat": 13.25,
     "lng": -61.2,
     "cca2": "VC",
-    "cca3": "VCT"
+    "cca3": "VCT",
+    "region": "Caribbean"
   },
   "VCT": {
     "lat": 13.25,
     "lng": -61.2,
     "cca2": "VC",
-    "cca3": "VCT"
+    "cca3": "VCT",
+    "region": "Caribbean"
   },
   "Venezuela": {
     "lat": 8,
     "lng": -66,
     "cca2": "VE",
-    "cca3": "VEN"
+    "cca3": "VEN",
+    "region": "South America"
   },
   "VE": {
     "lat": 8,
     "lng": -66,
     "cca2": "VE",
-    "cca3": "VEN"
+    "cca3": "VEN",
+    "region": "South America"
   },
   "VEN": {
     "lat": 8,
     "lng": -66,
     "cca2": "VE",
-    "cca3": "VEN"
+    "cca3": "VEN",
+    "region": "South America"
   },
   "British Virgin Islands": {
     "lat": 18.431383,
     "lng": -64.62305,
     "cca2": "VG",
-    "cca3": "VGB"
+    "cca3": "VGB",
+    "region": "Caribbean"
   },
   "VG": {
     "lat": 18.431383,
     "lng": -64.62305,
     "cca2": "VG",
-    "cca3": "VGB"
+    "cca3": "VGB",
+    "region": "Caribbean"
   },
   "VGB": {
     "lat": 18.431383,
     "lng": -64.62305,
     "cca2": "VG",
-    "cca3": "VGB"
+    "cca3": "VGB",
+    "region": "Caribbean"
   },
   "United States Virgin Islands": {
     "lat": 18.35,
     "lng": -64.933333,
     "cca2": "VI",
-    "cca3": "VIR"
+    "cca3": "VIR",
+    "region": "Caribbean"
   },
   "VI": {
     "lat": 18.35,
     "lng": -64.933333,
     "cca2": "VI",
-    "cca3": "VIR"
+    "cca3": "VIR",
+    "region": "Caribbean"
   },
   "VIR": {
     "lat": 18.35,
     "lng": -64.933333,
     "cca2": "VI",
-    "cca3": "VIR"
+    "cca3": "VIR",
+    "region": "Caribbean"
   },
   "Vietnam": {
     "lat": 16.16666666,
     "lng": 107.83333333,
     "cca2": "VN",
-    "cca3": "VNM"
+    "cca3": "VNM",
+    "region": "South-Eastern Asia"
   },
   "VN": {
     "lat": 16.16666666,
     "lng": 107.83333333,
     "cca2": "VN",
-    "cca3": "VNM"
+    "cca3": "VNM",
+    "region": "South-Eastern Asia"
   },
   "VNM": {
     "lat": 16.16666666,
     "lng": 107.83333333,
     "cca2": "VN",
-    "cca3": "VNM"
+    "cca3": "VNM",
+    "region": "South-Eastern Asia"
   },
   "Vanuatu": {
     "lat": -16,
     "lng": 167,
     "cca2": "VU",
-    "cca3": "VUT"
+    "cca3": "VUT",
+    "region": "Melanesia"
   },
   "VU": {
     "lat": -16,
     "lng": 167,
     "cca2": "VU",
-    "cca3": "VUT"
+    "cca3": "VUT",
+    "region": "Melanesia"
   },
   "VUT": {
     "lat": -16,
     "lng": 167,
     "cca2": "VU",
-    "cca3": "VUT"
+    "cca3": "VUT",
+    "region": "Melanesia"
   },
   "Wallis and Futuna": {
     "lat": -13.3,
     "lng": -176.2,
     "cca2": "WF",
-    "cca3": "WLF"
+    "cca3": "WLF",
+    "region": "Polynesia"
   },
   "WF": {
     "lat": -13.3,
     "lng": -176.2,
     "cca2": "WF",
-    "cca3": "WLF"
+    "cca3": "WLF",
+    "region": "Polynesia"
   },
   "WLF": {
     "lat": -13.3,
     "lng": -176.2,
     "cca2": "WF",
-    "cca3": "WLF"
+    "cca3": "WLF",
+    "region": "Polynesia"
   },
   "Samoa": {
     "lat": -13.58333333,
     "lng": -172.33333333,
     "cca2": "WS",
-    "cca3": "WSM"
+    "cca3": "WSM",
+    "region": "Polynesia"
   },
   "WS": {
     "lat": -13.58333333,
     "lng": -172.33333333,
     "cca2": "WS",
-    "cca3": "WSM"
+    "cca3": "WSM",
+    "region": "Polynesia"
   },
   "WSM": {
     "lat": -13.58333333,
     "lng": -172.33333333,
     "cca2": "WS",
-    "cca3": "WSM"
+    "cca3": "WSM",
+    "region": "Polynesia"
   },
   "Yemen": {
     "lat": 15,
     "lng": 48,
     "cca2": "YE",
-    "cca3": "YEM"
+    "cca3": "YEM",
+    "region": "Western Asia"
   },
   "YE": {
     "lat": 15,
     "lng": 48,
     "cca2": "YE",
-    "cca3": "YEM"
+    "cca3": "YEM",
+    "region": "Western Asia"
   },
   "YEM": {
     "lat": 15,
     "lng": 48,
     "cca2": "YE",
-    "cca3": "YEM"
+    "cca3": "YEM",
+    "region": "Western Asia"
   },
   "South Africa": {
     "lat": -29,
     "lng": 24,
     "cca2": "ZA",
-    "cca3": "ZAF"
+    "cca3": "ZAF",
+    "region": "Southern Africa"
   },
   "ZA": {
     "lat": -29,
     "lng": 24,
     "cca2": "ZA",
-    "cca3": "ZAF"
+    "cca3": "ZAF",
+    "region": "Southern Africa"
   },
   "ZAF": {
     "lat": -29,
     "lng": 24,
     "cca2": "ZA",
-    "cca3": "ZAF"
+    "cca3": "ZAF",
+    "region": "Southern Africa"
   },
   "Zambia": {
     "lat": -15,
     "lng": 30,
     "cca2": "ZM",
-    "cca3": "ZMB"
+    "cca3": "ZMB",
+    "region": "Eastern Africa"
   },
   "ZM": {
     "lat": -15,
     "lng": 30,
     "cca2": "ZM",
-    "cca3": "ZMB"
+    "cca3": "ZMB",
+    "region": "Eastern Africa"
   },
   "ZMB": {
     "lat": -15,
     "lng": 30,
     "cca2": "ZM",
-    "cca3": "ZMB"
+    "cca3": "ZMB",
+    "region": "Eastern Africa"
   },
   "Zimbabwe": {
     "lat": -20,
     "lng": 30,
     "cca2": "ZW",
-    "cca3": "ZWE"
+    "cca3": "ZWE",
+    "region": "Eastern Africa"
   },
   "ZW": {
     "lat": -20,
     "lng": 30,
     "cca2": "ZW",
-    "cca3": "ZWE"
+    "cca3": "ZWE",
+    "region": "Eastern Africa"
   },
   "ZWE": {
     "lat": -20,
     "lng": 30,
     "cca2": "ZW",
-    "cca3": "ZWE"
+    "cca3": "ZWE",
+    "region": "Eastern Africa"
   }
 }

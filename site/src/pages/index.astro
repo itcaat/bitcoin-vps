@@ -14,8 +14,8 @@ try {
 const totalProviders = providers.length;
 const countries = new Set(providers.flatMap((p: any) => p.coordinates?.map((c: any) => c.code) ?? []));
 const totalCountries = countries.size;
-const categories = [...new Set(providers.map((p: any) => p.category))].sort();
-const regions = [...new Set(providers.map((p: any) => p.region))].sort();
+const categories = [...new Set(providers.flatMap((p: any) => p.categories ?? []))].sort();
+const regions = [...new Set(providers.flatMap((p: any) => p.regions ?? []))].sort();
 const allPayments = [...new Set(providers.flatMap((p: any) => p.payments ?? []))].sort();
 ---
 
@@ -101,8 +101,8 @@ const allPayments = [...new Set(providers.flatMap((p: any) => p.payments ?? []))
           {providers.map((p) => (
             <tr
               data-name={p.name.toLowerCase()}
-              data-category={p.category}
-              data-region={p.region}
+              data-categories={(p.categories ?? []).join(',')}
+              data-regions={(p.regions ?? []).join(',')}
               data-payments={(p.payments ?? []).join(',')}
               data-tor={String(p.tor_friendly)}
               data-coords={JSON.stringify(p.coordinates ?? [])}
@@ -120,8 +120,14 @@ const allPayments = [...new Set(providers.flatMap((p: any) => p.payments ?? []))
               <td class="provider-name">
                 <a href={p.url} target="_blank" rel="noopener noreferrer">{p.name}</a>
               </td>
-              <td><span class="badge badge-category">{p.category}</span></td>
-              <td class="location-text">{p.region}</td>
+              <td>
+                <div class="badges">
+                  {(p.categories ?? []).map((c: string) => (
+                    <span class="badge badge-category">{c}</span>
+                  ))}
+                </div>
+              </td>
+              <td class="location-text">{(p.regions ?? []).join(', ')}</td>
               <td class="location-text" title={(p.locations ?? []).join(', ')}>
                 {(p.locations ?? []).length <= 3
                   ? (p.locations ?? []).join(', ')
@@ -163,7 +169,7 @@ const allPayments = [...new Set(providers.flatMap((p: any) => p.payments ?? []))
       <button id="modal-close" class="modal-close" aria-label="Close">&times;</button>
       <div class="modal-header">
         <h2 id="modal-name" class="modal-name"></h2>
-        <span id="modal-category" class="badge badge-category"></span>
+        <div id="modal-categories" class="modal-badges"></div>
       </div>
       <div class="modal-body">
         <div class="modal-grid">
@@ -219,6 +225,79 @@ const allPayments = [...new Set(providers.flatMap((p: any) => p.payments ?? []))
 
   <script is:inline>
     document.addEventListener('DOMContentLoaded', () => {
+      const rows = document.querySelectorAll('#provider-tbody tr');
+
+      // ── Modal ────────────────────────────────
+      const modalOverlay = document.getElementById('modal-overlay');
+      const modalClose = document.getElementById('modal-close');
+      const modalName = document.getElementById('modal-name');
+      const modalCategories = document.getElementById('modal-categories');
+      const modalRegion = document.getElementById('modal-region');
+      const modalCompany = document.getElementById('modal-company');
+      const modalTor = document.getElementById('modal-tor');
+      const modalAff = document.getElementById('modal-aff');
+      const modalLocations = document.getElementById('modal-locations');
+      const modalPayments = document.getElementById('modal-payments');
+      const modalFeatures = document.getElementById('modal-features');
+      const modalDescription = document.getElementById('modal-description');
+      const modalDescSection = document.getElementById('modal-desc-section');
+      const modalLink = document.getElementById('modal-link');
+
+      function openModal(row) {
+        modalName.textContent = row.dataset.displayName;
+        var cats = row.dataset.categories ? row.dataset.categories.split(',').filter(Boolean) : [];
+        modalCategories.innerHTML = cats.length
+          ? cats.map(function(c) { return '<span class="badge badge-category">' + c + '</span>'; }).join(' ')
+          : '';
+        modalRegion.textContent = row.dataset.regions ? row.dataset.regions.split(',').join(', ') : 'Worldwide';
+        modalCompany.textContent = row.dataset.company || 'Unknown';
+        modalTor.innerHTML = row.dataset.tor === 'true'
+          ? '<span class="badge badge-tor">Yes</span>'
+          : '<span style="color:var(--text-muted)">No</span>';
+        modalAff.innerHTML = row.dataset.aff === 'true'
+          ? '<span style="color:var(--text-muted)">Yes</span>'
+          : '<span style="color:var(--green)">No (direct link)</span>';
+        modalLocations.textContent = row.dataset.fullLocations || 'Not specified';
+        var payments = row.dataset.payments ? row.dataset.payments.split(',').filter(Boolean) : [];
+        modalPayments.innerHTML = payments.length
+          ? payments.map(function(p) { return '<span class="badge badge-payment">' + p + '</span>'; }).join(' ')
+          : '<span style="color:var(--text-muted)">Not specified</span>';
+        var features = row.dataset.features ? row.dataset.features.split(',').filter(Boolean) : [];
+        modalFeatures.innerHTML = features.length
+          ? features.map(function(f) { return '<span class="badge badge-feature">' + f + '</span>'; }).join(' ')
+          : '<span style="color:var(--text-muted)">None detected</span>';
+        var desc = row.dataset.fullDescription || '';
+        if (desc) {
+          modalDescription.textContent = desc;
+          modalDescSection.style.display = '';
+        } else {
+          modalDescSection.style.display = 'none';
+        }
+        modalLink.href = row.dataset.url;
+        modalOverlay.style.display = '';
+        document.body.style.overflow = 'hidden';
+      }
+
+      function closeModal() {
+        modalOverlay.style.display = 'none';
+        document.body.style.overflow = '';
+      }
+
+      rows.forEach(function(row) {
+        row.addEventListener('click', function(e) {
+          if (e.target.tagName === 'A') return;
+          openModal(row);
+        });
+      });
+
+      modalClose.addEventListener('click', closeModal);
+      modalOverlay.addEventListener('click', function(e) {
+        if (e.target === modalOverlay) closeModal();
+      });
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') closeModal();
+      });
+
       // ── Map ──────────────────────────────────
       const map = L.map('map', {
         center: [30, 0],
@@ -241,12 +320,26 @@ const allPayments = [...new Set(providers.flatMap((p: any) => p.payments ?? []))
         showCoverageOnHover: false,
         zoomToBoundsOnClick: true,
         iconCreateFunction: (cluster) => {
+          const children = cluster.getAllChildMarkers();
+          const names = [];
+          const seen = new Set();
+          for (var i = 0; i < children.length && names.length < 5; i++) {
+            var r = children[i]._providerRow;
+            if (r && !seen.has(r)) {
+              seen.add(r);
+              names.push(r.dataset.displayName);
+            }
+          }
+          var uniqueCount = new Set(children.map(function(m) { return m._providerRow; })).size;
+          var tooltip = names.join('\n');
+          if (uniqueCount > 5) tooltip += '\n... +' + (uniqueCount - 5) + ' more';
+
           const count = cluster.getChildCount();
           let size = 'small';
           if (count >= 50) size = 'large';
           else if (count >= 10) size = 'medium';
           return L.divIcon({
-            html: '<div>' + count + '</div>',
+            html: '<div title="' + tooltip.replace(/"/g, '&quot;') + '">' + count + '</div>',
             className: 'marker-cluster marker-cluster-' + size,
             iconSize: L.point(40, 40),
           });
@@ -260,7 +353,6 @@ const allPayments = [...new Set(providers.flatMap((p: any) => p.payments ?? []))
         iconAnchor: [6, 6],
       });
 
-      const rows = document.querySelectorAll('#provider-tbody tr');
       const allMarkerLayers = [];
 
       rows.forEach((row) => {
@@ -272,12 +364,13 @@ const allPayments = [...new Set(providers.flatMap((p: any) => p.payments ?? []))
         coords.forEach((c) => {
           const jitter = () => (Math.random() - 0.5) * 0.5;
           const marker = L.marker([c.lat + jitter(), c.lng + jitter()], { icon: btcIcon });
-          marker.bindPopup(
-            '<div class="popup-name">' + name + '</div>' +
-            '<div class="popup-category">' + category + '</div>' +
-            '<div class="popup-location">' + c.label + '</div>'
-          );
+          marker.bindTooltip(name, {
+            direction: 'top',
+            offset: [0, -8],
+            className: 'marker-tooltip',
+          });
           marker._providerRow = row;
+          marker.on('click', function() { openModal(row); });
           allMarkerLayers.push(marker);
           markers.addLayer(marker);
         });
@@ -310,8 +403,8 @@ const allPayments = [...new Set(providers.flatMap((p: any) => p.payments ?? []))
             row.dataset.name.includes(search) ||
             row.dataset.locations.includes(search) ||
             row.dataset.description.includes(search);
-          const matchCategory = !category || row.dataset.category === category;
-          const matchRegion = !region || row.dataset.region === region;
+          const matchCategory = !category || (row.dataset.categories || '').split(',').includes(category);
+          const matchRegion = !region || (row.dataset.regions || '').split(',').includes(region);
           const matchPayment = !payment || row.dataset.payments.includes(payment);
           const matchTor = !tor || row.dataset.tor === tor;
 
@@ -371,12 +464,12 @@ const allPayments = [...new Set(providers.flatMap((p: any) => p.payments ?? []))
                 bVal = b.dataset.name;
                 break;
               case 'category':
-                aVal = a.dataset.category;
-                bVal = b.dataset.category;
+                aVal = a.dataset.categories;
+                bVal = b.dataset.categories;
                 break;
               case 'region':
-                aVal = a.dataset.region;
-                bVal = b.dataset.region;
+                aVal = a.dataset.regions;
+                bVal = b.dataset.regions;
                 break;
               case 'locations':
                 aVal = a.dataset.locations;
@@ -402,79 +495,6 @@ const allPayments = [...new Set(providers.flatMap((p: any) => p.payments ?? []))
         });
       });
 
-      // ── Modal ────────────────────────────────
-      const modalOverlay = document.getElementById('modal-overlay');
-      const modalClose = document.getElementById('modal-close');
-      const modalName = document.getElementById('modal-name');
-      const modalCategory = document.getElementById('modal-category');
-      const modalRegion = document.getElementById('modal-region');
-      const modalCompany = document.getElementById('modal-company');
-      const modalTor = document.getElementById('modal-tor');
-      const modalAff = document.getElementById('modal-aff');
-      const modalLocations = document.getElementById('modal-locations');
-      const modalPayments = document.getElementById('modal-payments');
-      const modalFeatures = document.getElementById('modal-features');
-      const modalDescription = document.getElementById('modal-description');
-      const modalDescSection = document.getElementById('modal-desc-section');
-      const modalLink = document.getElementById('modal-link');
-
-      function openModal(row) {
-        modalName.textContent = row.dataset.displayName;
-        modalCategory.textContent = row.dataset.category;
-        modalRegion.textContent = row.dataset.region;
-        modalCompany.textContent = row.dataset.company || 'Unknown';
-        modalTor.innerHTML = row.dataset.tor === 'true'
-          ? '<span class="badge badge-tor">Yes</span>'
-          : '<span style="color:var(--text-muted)">No</span>';
-        modalAff.innerHTML = row.dataset.aff === 'true'
-          ? '<span style="color:var(--text-muted)">Yes</span>'
-          : '<span style="color:var(--green)">No (direct link)</span>';
-
-        modalLocations.textContent = row.dataset.fullLocations || 'Not specified';
-
-        const payments = row.dataset.payments ? row.dataset.payments.split(',').filter(Boolean) : [];
-        modalPayments.innerHTML = payments.length
-          ? payments.map(function(p) { return '<span class="badge badge-payment">' + p + '</span>'; }).join(' ')
-          : '<span style="color:var(--text-muted)">Not specified</span>';
-
-        const features = row.dataset.features ? row.dataset.features.split(',').filter(Boolean) : [];
-        modalFeatures.innerHTML = features.length
-          ? features.map(function(f) { return '<span class="badge badge-feature">' + f + '</span>'; }).join(' ')
-          : '<span style="color:var(--text-muted)">None detected</span>';
-
-        const desc = row.dataset.fullDescription || '';
-        if (desc) {
-          modalDescription.textContent = desc;
-          modalDescSection.style.display = '';
-        } else {
-          modalDescSection.style.display = 'none';
-        }
-
-        modalLink.href = row.dataset.url;
-
-        modalOverlay.style.display = '';
-        document.body.style.overflow = 'hidden';
-      }
-
-      function closeModal() {
-        modalOverlay.style.display = 'none';
-        document.body.style.overflow = '';
-      }
-
-      rows.forEach(function(row) {
-        row.addEventListener('click', function(e) {
-          if (e.target.tagName === 'A') return;
-          openModal(row);
-        });
-      });
-
-      modalClose.addEventListener('click', closeModal);
-      modalOverlay.addEventListener('click', function(e) {
-        if (e.target === modalOverlay) closeModal();
-      });
-      document.addEventListener('keydown', function(e) {
-        if (e.key === 'Escape') closeModal();
-      });
     });
   </script>
 </Layout>
