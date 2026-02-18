@@ -15,8 +15,11 @@ const ProviderMap = dynamic(
 function MapSkeleton() {
   return (
     <div className="px-6 py-4">
-      <div className="w-full h-[420px] rounded-xl border border-border bg-muted/30 animate-pulse flex items-center justify-center">
-        <span className="text-muted-foreground text-sm">Loading map...</span>
+      <div className="w-full h-[500px] rounded-xl border border-border bg-muted/20 flex items-center justify-center">
+        <div className="flex flex-col items-center gap-3">
+          <div className="w-8 h-8 border-2 border-[#f7931a] border-t-transparent rounded-full animate-spin" />
+          <span className="text-muted-foreground text-sm">Loading globe...</span>
+        </div>
       </div>
     </div>
   );

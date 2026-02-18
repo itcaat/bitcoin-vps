@@ -142,48 +142,7 @@
   background-color: #ffa940;
 }
 
-/* Leaflet overrides */
-.leaflet-container {
-  background: hsl(222 15% 10%) !important;
-}
-
-.marker-tooltip {
-  background: hsl(222 15% 13%) !important;
-  color: hsl(0 0% 93%) !important;
-  border: 1px solid hsl(0 0% 100% / 10%) !important;
-  border-radius: 8px !important;
-  padding: 0.35rem 0.6rem !important;
-  font-family: var(--font-geist-sans), sans-serif !important;
-  font-size: 0.8rem !important;
-  font-weight: 600 !important;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3) !important;
-}
-
-.marker-tooltip::before {
-  border-top-color: hsl(0 0% 100% / 10%) !important;
-}
-
-.marker-cluster-small,
-.marker-cluster-medium,
-.marker-cluster-large {
-  background: transparent !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-}
-
-.marker-cluster-small div,
-.marker-cluster-medium div,
-.marker-cluster-large div {
-  background: #f7931a !important;
-  color: #000 !important;
-  font-weight: 700 !important;
-  font-family: var(--font-geist-mono), monospace !important;
-  width: 30px !important;
-  height: 30px !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  border-radius: 50% !important;
-  font-size: 0.8rem !important;
+/* Globe tooltip override */
+.scene-tooltip {
+  pointer-events: none !important;
 }
