@@ -141,8 +141,3 @@
 .hover\:bg-btc-hover:hover {
   background-color: #ffa940;
 }
-
-/* Globe tooltip override */
-.scene-tooltip {
-  pointer-events: none !important;
-}

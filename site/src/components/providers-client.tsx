@@ -1,29 +1,10 @@
 "use client";
 
 import { useState, useMemo, useCallback } from "react";
-import dynamic from "next/dynamic";
 import type { Provider } from "@/lib/providers";
 import { FilterBar } from "@/components/filter-bar";
 import { ProviderTable } from "@/components/provider-table";
 import { ProviderModal } from "@/components/provider-modal";
-
-const ProviderMap = dynamic(
-  () => import("@/components/provider-map").then((m) => m.ProviderMap),
-  { ssr: false, loading: () => <MapSkeleton /> }
-);
-
-function MapSkeleton() {
-  return (
-    <div className="px-6 py-4">
-      <div className="w-full h-[500px] rounded-xl border border-border bg-muted/20 flex items-center justify-center">
-        <div className="flex flex-col items-center gap-3">
-          <div className="w-8 h-8 border-2 border-[#f7931a] border-t-transparent rounded-full animate-spin" />
-          <span className="text-muted-foreground text-sm">Loading globe...</span>
-        </div>
-      </div>
-    </div>
-  );
-}
 
 interface ProvidersClientProps {
   providers: Provider[];
@@ -70,8 +51,6 @@ export function ProvidersClient({
 
   return (
     <>
-      <ProviderMap providers={filtered} onSelect={handleSelect} />
-
       <FilterBar
         search={search}
         onSearchChange={setSearch}
